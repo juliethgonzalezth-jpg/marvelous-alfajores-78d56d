@@ -1,0 +1,1088 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Juan David Posada Dossier</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+:root{
+  color-scheme:light;
+  --bg:#f4f2ee; --surface:#ffffff; --surface-2:#eceae4; --ink:#15171c; --ink-2:#474c59; --muted:#7a7f8c;
+  --line:#dedbd3; --line-strong:#c8c4ba;
+  --accent:#e8501f; --accent-ink:#c93f12; --accent-soft:#fff0ea; --series-2:#4f86c6; --series-2-soft:#e8f0fa;
+  --good:#1f8a4c; --good-soft:#e6f4ec; --warn:#b8760f; --warn-soft:#fbf1dc; --crit:#c73a32; --crit-soft:#fbe8e6;
+  --cover:#0f1115; --cover-ink:#f4f2ee; --cover-muted:#9aa0ad; --cover-line:#2a2f3a;
+  --chart-accent:#e8501f; --chart-2:#4f86c6; --grid:#e3e0d8; --axis:#c3bfb5;
+  --shadow:0 10px 30px rgba(21,23,28,.08);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --bg:#111318; --surface:#181b21; --surface-2:#1f232b; --ink:#f1efe9; --ink-2:#b8bcc7; --muted:#858a97;
+    --line:#2a2f3a; --line-strong:#3a4050;
+    --accent:#ff6a3d; --accent-ink:#ff8a66; --accent-soft:#2a1a14; --series-2:#5b93d6; --series-2-soft:#16243a;
+    --good:#3fb872; --good-soft:#12291b; --warn:#e0a232; --warn-soft:#2c2210; --crit:#ef6b62; --crit-soft:#33191a;
+    --chart-accent:#f04e22; --chart-2:#5b93d6; --grid:#262b34; --axis:#3a4050;
+    --shadow:0 10px 30px rgba(0,0,0,.35);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#111318; --surface:#181b21; --surface-2:#1f232b; --ink:#f1efe9; --ink-2:#b8bcc7; --muted:#858a97;
+  --line:#2a2f3a; --line-strong:#3a4050;
+  --accent:#ff6a3d; --accent-ink:#ff8a66; --accent-soft:#2a1a14; --series-2:#5b93d6; --series-2-soft:#16243a;
+  --good:#3fb872; --good-soft:#12291b; --warn:#e0a232; --warn-soft:#2c2210; --crit:#ef6b62; --crit-soft:#33191a;
+  --chart-accent:#f04e22; --chart-2:#5b93d6; --grid:#262b34; --axis:#3a4050;
+  --shadow:0 10px 30px rgba(0,0,0,.35);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto} .pulse{animation:none}}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;font-size:15px;line-height:1.55;-webkit-font-smoothing:antialiased}
+a{color:var(--accent-ink)}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+img{max-width:100%;display:block}
+h1,h2,h3,h4{font-family:"Barlow Condensed","Arial Narrow",Impact,sans-serif;margin:0;text-wrap:balance;line-height:1.05}
+.eyebrow{font-family:"IBM Plex Mono",ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.mono{font-family:"IBM Plex Mono",ui-monospace,Menlo,monospace;font-variant-numeric:tabular-nums}
+.num{font-family:"IBM Plex Mono",ui-monospace,Menlo,monospace;font-variant-numeric:tabular-nums}
+
+/* top bar */
+.topbar{position:sticky;top:env(safe-area-inset-top,0px);z-index:40;background:var(--cover);color:var(--cover-ink);border-bottom:1px solid var(--cover-line)}
+.topbar .in{max-width:1360px;margin:0 auto;padding:10px 16px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:inherit}
+.brand img{width:30px;height:30px;border-radius:7px}
+.brand b{font-family:"Barlow Condensed",sans-serif;font-weight:700;letter-spacing:.06em;font-size:18px}
+.brand span{font-size:12px;color:var(--cover-muted);letter-spacing:.08em;text-transform:uppercase}
+.live{display:inline-flex;align-items:center;gap:8px;padding:5px 10px;border:1px solid var(--cover-line);border-radius:999px;font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase}
+.pulse{width:8px;height:8px;border-radius:50%;background:#3fd37a;box-shadow:0 0 0 0 rgba(63,211,122,.6);animation:pulse 1.8s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(63,211,122,.55)}70%{box-shadow:0 0 0 9px rgba(63,211,122,0)}100%{box-shadow:0 0 0 0 rgba(63,211,122,0)}}
+.topbar .meta{margin-left:auto;display:flex;gap:14px;align-items:center;font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--cover-muted)}
+.topbar .conf{color:#ffb39a}
+@media (max-width:720px){.topbar .meta{display:none}}
+
+/* cover */
+.cover{background:var(--cover);color:var(--cover-ink);position:relative;overflow:hidden}
+.cover::before{content:"";position:absolute;inset:0;background:
+  radial-gradient(900px 500px at 85% 10%,rgba(232,80,31,.22),transparent 60%),
+  repeating-linear-gradient(90deg,transparent 0 79px,rgba(255,255,255,.035) 79px 80px);pointer-events:none}
+.cover .in{max-width:1360px;margin:0 auto;padding:36px 16px 0;display:grid;grid-template-columns:1.25fr .75fr;gap:24px;align-items:end;position:relative}
+.cover .kicker{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:18px}
+.cover .kicker .eyebrow{color:#ffb39a}
+.cover h1{font-size:clamp(54px,8.5vw,118px);font-weight:800;letter-spacing:-.01em;text-transform:uppercase;line-height:.9}
+.cover h1 small{display:block;font-size:.42em;font-weight:600;color:var(--cover-muted);letter-spacing:.04em;margin-bottom:10px}
+.cover .sub{margin:18px 0 0;font-size:17px;color:#d5d8e0;max-width:60ch}
+.cover .tags{display:flex;gap:8px;flex-wrap:wrap;margin:22px 0 26px}
+.tag{display:inline-flex;align-items:center;gap:6px;padding:6px 11px;border-radius:6px;font-family:"IBM Plex Mono",monospace;font-size:12px;letter-spacing:.06em;text-transform:uppercase;background:rgba(255,255,255,.07);border:1px solid var(--cover-line);color:#e9ebf0}
+.tag.hot{background:var(--accent);border-color:var(--accent);color:#fff}
+.tag.free{background:#153b25;border-color:#1f5a38;color:#9fe8be}
+.cover .photo{position:relative;align-self:end;justify-self:center;max-height:480px;padding-bottom:6px}
+.cover .photo::before{content:"";position:absolute;left:50%;bottom:2%;transform:translateX(-50%);width:78%;aspect-ratio:1/1;border-radius:50%;background:radial-gradient(circle,rgba(232,80,31,.32),transparent 72%);z-index:0}
+.cover .photo img{position:relative;z-index:1;max-height:480px;width:auto;object-fit:contain;filter:drop-shadow(0 22px 30px rgba(0,0,0,.5))}
+.facts{max-width:1360px;margin:0 auto;padding:0 16px 30px;position:relative}
+.facts .grid{display:grid;grid-template-columns:repeat(6,1fr);border:1px solid var(--cover-line);border-radius:10px;overflow:hidden;background:rgba(255,255,255,.03)}
+.facts .cell{padding:12px 14px;border-right:1px solid var(--cover-line)}
+.facts .cell:last-child{border-right:0}
+.facts .k{font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--cover-muted)}
+.facts .v{font-family:"Barlow Condensed",sans-serif;font-size:26px;font-weight:700;margin-top:2px;line-height:1}
+.facts .v small{font-size:13px;font-family:"IBM Plex Sans",sans-serif;font-weight:500;color:var(--cover-muted);margin-left:4px}
+@media (max-width:980px){.cover .in{grid-template-columns:1fr;gap:0}.cover .photo{max-height:320px;order:-1;justify-self:end}.cover .photo img{max-height:320px}.facts .grid{grid-template-columns:repeat(3,1fr)}.facts .cell:nth-child(3){border-right:0}.facts .cell:nth-child(-n+3){border-bottom:1px solid var(--cover-line)}}
+@media (max-width:520px){.facts .grid{grid-template-columns:repeat(2,1fr)}.facts .cell{border-right:1px solid var(--cover-line)}.facts .cell:nth-child(2n){border-right:0}.facts .cell:nth-child(-n+4){border-bottom:1px solid var(--cover-line)}.facts .cell:nth-child(3){border-right:1px solid var(--cover-line)}}
+
+/* layout */
+.wrap{max-width:1360px;margin:0 auto;padding:0 16px;display:grid;grid-template-columns:232px minmax(0,1fr);gap:36px}
+aside.nav{position:sticky;top:calc(env(safe-area-inset-top,0px) + 62px);align-self:start;padding:26px 0 30px;max-height:calc(100vh - 70px);overflow:auto}
+aside.nav .eyebrow{margin-bottom:10px}
+aside.nav a{display:flex;gap:10px;align-items:baseline;text-decoration:none;color:var(--ink-2);padding:6px 8px;border-radius:6px;font-size:13.5px;border-left:2px solid transparent}
+aside.nav a .n{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--muted);width:20px}
+aside.nav a:hover{background:var(--surface-2);color:var(--ink)}
+aside.nav a.on{color:var(--ink);border-left-color:var(--accent);background:var(--surface-2);font-weight:500}
+aside.nav .box{margin-top:18px;padding:12px;border:1px solid var(--line);border-radius:10px;background:var(--surface);font-size:12.5px;color:var(--ink-2)}
+aside.nav .box b{color:var(--ink)}
+main{min-width:0;padding:8px 0 60px}
+.mobilenav{display:none}
+@media (max-width:980px){
+  .wrap{grid-template-columns:1fr;gap:0}
+  aside.nav{display:none}
+  .mobilenav{display:flex;gap:6px;overflow-x:auto;position:sticky;top:calc(env(safe-area-inset-top,0px) + 52px);z-index:30;background:var(--bg);padding:10px 16px;margin:0 -16px;border-bottom:1px solid var(--line);scrollbar-width:none}
+  .mobilenav::-webkit-scrollbar{display:none}
+  .mobilenav a{white-space:nowrap;text-decoration:none;color:var(--ink-2);font-size:12.5px;padding:6px 10px;border:1px solid var(--line);border-radius:999px;background:var(--surface)}
+  .mobilenav a.on{border-color:var(--accent);color:var(--accent-ink)}
+}
+section.sec{padding:34px 0 10px;border-bottom:1px solid var(--line);scroll-margin-top:90px}
+section.sec:last-of-type{border-bottom:0}
+.sec-head{display:flex;align-items:baseline;gap:14px;margin-bottom:18px;flex-wrap:wrap}
+.sec-head .n{font-family:"IBM Plex Mono",monospace;color:var(--accent-ink);font-size:13px;letter-spacing:.1em}
+.sec-head h2{font-size:38px;font-weight:700;text-transform:uppercase;letter-spacing:.01em}
+.sec-head .lede{flex-basis:100%;color:var(--ink-2);max-width:72ch;margin:0}
+p{margin:0 0 12px;max-width:72ch}
+.cards{display:grid;gap:14px}
+.cards.c2{grid-template-columns:repeat(2,minmax(0,1fr))}
+.cards.c3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.cards.c4{grid-template-columns:repeat(4,minmax(0,1fr))}
+@media (max-width:900px){.cards.c3,.cards.c4{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:560px){.cards.c2,.cards.c3,.cards.c4{grid-template-columns:1fr}}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.card h3{font-size:22px;font-weight:700;text-transform:uppercase;margin-bottom:8px}
+.card .k{font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.card .big{font-family:"Barlow Condensed",sans-serif;font-size:30px;font-weight:700;line-height:1.05;margin:4px 0 6px}
+.card .big.sm{font-size:24px}
+.card p:last-child{margin-bottom:0}
+.verdict{border-left:4px solid var(--accent)}
+.chip{display:inline-flex;align-items:center;gap:6px;padding:3px 9px;border-radius:999px;font-size:11.5px;font-family:"IBM Plex Mono",monospace;letter-spacing:.06em;text-transform:uppercase;border:1px solid var(--line);background:var(--surface-2);color:var(--ink-2)}
+.chip.good{background:var(--good-soft);color:var(--good);border-color:transparent}
+.chip.warn{background:var(--warn-soft);color:var(--warn);border-color:transparent}
+.chip.crit{background:var(--crit-soft);color:var(--crit);border-color:transparent}
+.chip.hot{background:var(--accent-soft);color:var(--accent-ink);border-color:transparent}
+.chip.ver{background:var(--series-2-soft);color:var(--series-2);border-color:transparent}
+ul.clean{list-style:none;padding:0;margin:0}
+ul.clean li{padding:8px 0;border-top:1px solid var(--line);display:flex;gap:12px;align-items:flex-start}
+ul.clean li:first-child{border-top:0}
+ul.clean li .dot{width:8px;height:8px;border-radius:50%;background:var(--accent);flex:none;margin-top:8px}
+ul.clean li .dot.dev{background:var(--warn)}
+.ev{font-family:"IBM Plex Mono",monospace;font-size:11.5px;text-decoration:none;color:var(--series-2);white-space:nowrap;border:1px solid var(--line);border-radius:5px;padding:2px 7px;background:var(--surface)}
+.ev:hover{border-color:var(--series-2)}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+th{text-align:left;font-family:"IBM Plex Mono",monospace;font-weight:500;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);padding:8px 10px;border-bottom:1px solid var(--line-strong)}
+td{padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+tr.me td{background:var(--accent-soft);font-weight:500}
+.tscroll{overflow-x:auto}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media (max-width:900px){.grid2{grid-template-columns:1fr}}
+
+/* scouting report */
+.rep{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media (max-width:1100px){.rep{grid-template-columns:1fr}}
+.rep .card h3{display:flex;justify-content:space-between;align-items:center}
+.rep .card h3 .chip{font-size:10.5px}
+.attr{display:grid;grid-template-columns:150px 92px 1fr;gap:10px;align-items:start;padding:9px 0;border-top:1px solid var(--line)}
+.attr:first-of-type{border-top:0}
+.attr .name{font-weight:500;font-size:13.5px}
+.attr .obs{font-size:13px;color:var(--ink-2)}
+.attr .obs a{margin-left:4px}
+.scale{display:flex;gap:3px;margin-top:6px}
+.scale i{display:block;width:14px;height:8px;border-radius:2px;background:var(--surface-2);border:1px solid var(--line)}
+.scale i.f{background:var(--accent);border-color:var(--accent)}
+.scale i.f.top{background:var(--good);border-color:var(--good)}
+.lvl{font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+@media (max-width:560px){.attr{grid-template-columns:1fr;gap:4px}}
+.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:12px;color:var(--ink-2);margin:10px 0 0}
+.legend span{display:inline-flex;gap:6px;align-items:center}
+.legend i{width:12px;height:12px;border-radius:3px;display:inline-block}
+
+/* charts */
+.chart{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.chart h3{font-size:20px;font-weight:700;text-transform:uppercase}
+.chart .sub{font-size:12.5px;color:var(--muted);margin:2px 0 12px}
+.chart svg{width:100%;height:auto;display:block;overflow:visible}
+.chart text{font-family:"IBM Plex Sans",sans-serif;font-size:12px;fill:var(--ink-2)}
+.chart text.v{font-family:"IBM Plex Mono",monospace;font-size:11.5px;fill:var(--ink)}
+.chart .grid line{stroke:var(--grid);stroke-width:1}
+.chart .axis{stroke:var(--axis);stroke-width:1.5}
+.chart .base{stroke:var(--ink);stroke-width:1.5;stroke-dasharray:4 4;opacity:.5}
+.tip{position:fixed;z-index:60;pointer-events:none;background:var(--ink);color:var(--bg);font-size:12.5px;padding:7px 10px;border-radius:6px;box-shadow:var(--shadow);opacity:0;transform:translate(-50%,-120%);transition:opacity .12s;white-space:nowrap}
+.tip.on{opacity:1}
+.tip b{font-family:"IBM Plex Mono",monospace}
+.tiles{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+@media (max-width:900px){.tiles{grid-template-columns:repeat(2,1fr)}}
+.tile{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.tile .k{font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.tile .v{font-family:"Barlow Condensed",sans-serif;font-size:38px;font-weight:700;line-height:1;margin:6px 0 2px}
+.tile .v small{font-size:15px;font-family:"IBM Plex Sans",sans-serif;font-weight:500;color:var(--muted);margin-left:3px}
+.tile .d{font-size:12.5px;color:var(--ink-2)}
+
+/* video */
+.vids{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+@media (max-width:900px){.vids{grid-template-columns:1fr}}
+.vid{background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden;display:flex;flex-direction:column}
+.vid .th{position:relative;aspect-ratio:16/9;background:#000}
+.vid .th img{width:100%;height:100%;object-fit:cover;opacity:.92}
+.vid .th .play{position:absolute;inset:0;display:grid;place-items:center;text-decoration:none}
+.vid .th .play span{width:56px;height:56px;border-radius:50%;background:rgba(232,80,31,.95);display:grid;place-items:center;box-shadow:0 8px 24px rgba(0,0,0,.4)}
+.vid .th .play svg{width:22px;height:22px;fill:#fff;margin-left:3px}
+.vid .th .dur{position:absolute;right:8px;bottom:8px;background:rgba(0,0,0,.75);color:#fff;font-family:"IBM Plex Mono",monospace;font-size:11px;padding:2px 6px;border-radius:4px}
+.vid .b{padding:12px 14px 14px}
+.vid h3{font-size:20px;font-weight:700;text-transform:uppercase}
+.vid .m{font-size:12.5px;color:var(--muted);margin:2px 0 10px;font-family:"IBM Plex Mono",monospace}
+.vid ul{list-style:none;margin:0;padding:0}
+.vid li{display:flex;gap:10px;padding:6px 0;border-top:1px solid var(--line);font-size:13px;align-items:baseline}
+.vid li a{font-family:"IBM Plex Mono",monospace;font-size:11.5px;text-decoration:none;color:var(--series-2);flex:none;width:58px}
+.stills{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:16px}
+@media (max-width:760px){.stills{grid-template-columns:1fr}}
+.still{background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.still img{width:100%;aspect-ratio:14/10;object-fit:cover}
+.still .c{padding:10px 12px;font-size:12.5px;color:var(--ink-2)}
+.still .c b{color:var(--ink);display:block;font-family:"Barlow Condensed",sans-serif;font-size:17px;text-transform:uppercase;letter-spacing:.02em}
+
+/* timeline */
+.tl{position:relative;padding-left:26px}
+.tl::before{content:"";position:absolute;left:8px;top:6px;bottom:6px;width:2px;background:var(--line-strong)}
+.tl .it{position:relative;padding:0 0 18px}
+.tl .it::before{content:"";position:absolute;left:-23px;top:6px;width:12px;height:12px;border-radius:50%;background:var(--surface);border:3px solid var(--accent)}
+.tl .it.ver::before{border-color:var(--series-2)}
+.tl .it.warn::before{border-color:var(--warn)}
+.tl .y{font-family:"IBM Plex Mono",monospace;font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.tl .t{font-family:"Barlow Condensed",sans-serif;font-size:21px;font-weight:700;text-transform:uppercase;margin:2px 0}
+.tl .d{font-size:13.5px;color:var(--ink-2);max-width:70ch}
+.path{display:grid;grid-template-columns:1fr auto 1fr auto 1fr;gap:10px;align-items:stretch}
+.path .arrow{align-self:center;color:var(--muted);font-size:22px}
+@media (max-width:760px){.path{grid-template-columns:1fr}.path .arrow{transform:rotate(90deg);justify-self:center}}
+.pitch{width:100%;max-width:330px;height:auto}
+.pitch .g{fill:#2f7d4f}
+.pitch .l{stroke:rgba(255,255,255,.75);stroke-width:1.5;fill:none}
+.pitch .zone{fill:var(--accent);opacity:.85}
+.pitch .zone2{fill:var(--accent);opacity:.35}
+
+/* calculator */
+.calc{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.calc table td,.calc table th{padding:7px 8px}
+.calc input[type=text],.calc select{width:100%;padding:6px 8px;border:1px solid var(--line-strong);border-radius:6px;background:var(--bg);color:var(--ink);font:inherit;font-size:13px}
+.calc input[type=checkbox]{width:16px;height:16px;accent-color:var(--accent)}
+.calc .out{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:14px}
+@media (max-width:760px){.calc .out{grid-template-columns:repeat(2,1fr)}}
+.calc .o{border:1px solid var(--line);border-radius:10px;padding:10px 12px;background:var(--bg)}
+.calc .o .k{font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.calc .o .v{font-family:"Barlow Condensed",sans-serif;font-size:30px;font-weight:700;line-height:1.1}
+.calc .o.hot{border-color:var(--accent)}
+.note{font-size:12.5px;color:var(--muted);margin-top:10px;max-width:none}
+
+/* references / docs */
+.ref{display:grid;grid-template-columns:auto 1fr;gap:14px;align-items:start}
+.ref .av{width:46px;height:46px;border-radius:50%;background:var(--surface-2);display:grid;place-items:center;font-family:"Barlow Condensed",sans-serif;font-weight:700;font-size:18px;color:var(--ink-2);border:1px solid var(--line)}
+.ref q{display:block;font-style:italic;color:var(--ink-2);margin:8px 0;font-size:14px;quotes:"“" "”"}
+.docs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+@media (max-width:760px){.docs{grid-template-columns:1fr}}
+.doc{display:flex;gap:12px;align-items:center;padding:12px 14px;border:1px solid var(--line);border-radius:10px;background:var(--surface);text-decoration:none;color:var(--ink)}
+.doc:hover{border-color:var(--accent)}
+.doc .ic{width:38px;height:44px;border-radius:6px;background:var(--surface-2);display:grid;place-items:center;font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.06em;color:var(--ink-2);flex:none;border:1px solid var(--line)}
+.doc .ic.pdf{color:var(--crit)}
+.doc .ic.web{color:var(--series-2)}
+.doc b{display:block;font-size:14px;font-weight:500}
+.doc span{font-size:12px;color:var(--muted)}
+
+/* workspace */
+.ws textarea{width:100%;min-height:120px;padding:10px 12px;border:1px solid var(--line-strong);border-radius:8px;background:var(--bg);color:var(--ink);font:inherit;font-size:14px;resize:vertical}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:9px 14px;border-radius:8px;border:1px solid var(--line-strong);background:var(--surface);color:var(--ink);font:inherit;font-size:13.5px;font-weight:500;cursor:pointer;text-decoration:none}
+.btn:hover{border-color:var(--accent)}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+.btn.primary:hover{background:var(--accent-ink);border-color:var(--accent-ink)}
+.btnrow{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px;align-items:center}
+.status{font-size:12.5px;color:var(--muted)}
+footer{background:var(--cover);color:var(--cover-muted);margin-top:40px}
+footer .in{max-width:1360px;margin:auto;padding:28px 16px;display:grid;grid-template-columns:1fr auto;gap:16px;align-items:center;font-size:12.5px}
+footer b{color:var(--cover-ink)}
+footer .right{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;text-align:right}
+@media (max-width:760px){footer .in{grid-template-columns:1fr}footer .right{text-align:left}}
+.hl{background:linear-gradient(transparent 60%,var(--accent-soft) 60%)}
+.kv{display:grid;grid-template-columns:150px 1fr;gap:6px 12px;font-size:13.5px}
+.kv .k{color:var(--muted);font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.08em;text-transform:uppercase;padding-top:2px}
+@media (max-width:560px){.kv{grid-template-columns:1fr}}
+.claims li{display:grid;grid-template-columns:1fr auto;gap:12px;align-items:center;padding:9px 0;border-top:1px solid var(--line);font-size:13.5px}
+.claims li:first-child{border-top:0}
+.claims .src{font-size:12px;color:var(--muted);display:block}
+.changelog li{display:grid;grid-template-columns:110px 1fr;gap:10px;padding:6px 0;border-top:1px solid var(--line);font-size:13px}
+.changelog li:first-child{border-top:0}
+.changelog .d{font-family:"IBM Plex Mono",monospace;font-size:11.5px;color:var(--muted)}
+</style>
+
+<div class="topbar">
+  <div class="in">
+    <a class="brand" href="#top"><img src="img/futboom.png" alt="FUTBOOM"><b>FUTBOOM</b><span>Scouting Intelligence</span></a>
+    <span class="live"><i class="pulse"></i> Live report · v1.0</span>
+    <div class="meta"><span class="conf">Confidential</span><span>Updated 28 Sep 2026</span><span>Next review: after first competitive match</span></div>
+  </div>
+</div>
+
+<header class="cover" id="top">
+  <div class="in">
+    <div>
+      <div class="kicker"><span class="eyebrow">Player Intelligence Report</span><span class="eyebrow" style="color:var(--cover-muted)">· Reference FB-2026-JDP-01</span></div>
+      <h1><small>Right-back · 2008 · Colombia</small>Juan David<br>Posada Maldonado</h1>
+      <p class="sub">Engine right-back with ball-striking quality. Starter for the FC Bayern World Squad Class of '26 in Germany and South Korea, former Colombia U17 call-up, national youth champion with CD Estudiantil. Currently a free agent, fully fit and available for a European project.</p>
+      <div class="tags">
+        <span class="tag hot">FC Bayern World Squad '26 · #2</span>
+        <span class="tag free">Free agent · no transfer fee</span>
+        <span class="tag">Colombia U17 call-up 2024</span>
+        <span class="tag">Medically cleared · Sep 2026</span>
+      </div>
+    </div>
+    <div class="photo"><img src="img/player.png" alt="Juan David Posada, official FC Bayern World Squad portrait" width="260" height="520"></div>
+  </div>
+  <div class="facts">
+    <div class="grid">
+      <div class="cell"><div class="k">Born</div><div class="v">13.04.2008<small>18 y</small></div></div>
+      <div class="cell"><div class="k">Height / weight</div><div class="v">1.80 m<small>72 kg</small></div></div>
+      <div class="cell"><div class="k">Foot</div><div class="v">Right</div></div>
+      <div class="cell"><div class="k">Positions</div><div class="v">RB<small>CB · DM</small></div></div>
+      <div class="cell"><div class="k">Passport</div><div class="v">COL<small>non-EU</small></div></div>
+      <div class="cell"><div class="k">Status</div><div class="v">Free agent<small>ITC: FCF</small></div></div>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+  <aside class="nav" aria-label="Sections">
+    <div class="eyebrow">Dossier</div>
+    <a href="#s1"><span class="n">01</span>Executive summary</a>
+    <a href="#s2"><span class="n">02</span>Player snapshot</a>
+    <a href="#s3"><span class="n">03</span>Role &amp; tactical fit</a>
+    <a href="#s4"><span class="n">04</span>Scouting report</a>
+    <a href="#s5"><span class="n">05</span>Strengths &amp; development</a>
+    <a href="#s6"><span class="n">06</span>Performance data</a>
+    <a href="#s7"><span class="n">07</span>Video library</a>
+    <a href="#s8"><span class="n">08</span>Evidence map</a>
+    <a href="#s9"><span class="n">09</span>Career timeline</a>
+    <a href="#s10"><span class="n">10</span>International context</a>
+    <a href="#s11"><span class="n">11</span>Development &amp; projection</a>
+    <a href="#s12"><span class="n">12</span>Market &amp; contract</a>
+    <a href="#s13"><span class="n">13</span>Training compensation</a>
+    <a href="#s14"><span class="n">14</span>Medical &amp; availability</a>
+    <a href="#s15"><span class="n">15</span>Sporting references</a>
+    <a href="#s16"><span class="n">16</span>Document center</a>
+    <a href="#s17"><span class="n">17</span>Club workspace</a>
+    <div class="box"><b>Live document.</b> Figures and status are maintained by FUTBOOM. Anything not yet verified is marked <span class="chip ver" style="font-size:9.5px">verify</span>. Sections marked <span class="chip hot" style="font-size:9.5px">scout view</span> are FUTBOOM's own assessment.</div>
+  </aside>
+
+  <main>
+    <nav class="mobilenav" aria-label="Sections">
+      <a href="#s1">Summary</a><a href="#s2">Snapshot</a><a href="#s3">Role</a><a href="#s4">Report</a><a href="#s5">Strengths</a><a href="#s6">Data</a><a href="#s7">Video</a><a href="#s8">Evidence</a><a href="#s9">Timeline</a><a href="#s10">International</a><a href="#s11">Projection</a><a href="#s12">Market</a><a href="#s13">Compensation</a><a href="#s14">Medical</a><a href="#s15">References</a><a href="#s16">Documents</a><a href="#s17">Workspace</a>
+    </nav>
+
+    <!-- 01 -->
+    <section class="sec" id="s1">
+      <div class="sec-head"><span class="n">01</span><h2>Executive summary</h2><p class="lede">The 30-second read for a sporting director. Every statement below links to evidence further down the page.</p></div>
+      <div class="cards c4">
+        <div class="card verdict"><div class="k">Current level</div><div class="big sm">International youth (U19)</div><p>Started at right-back for the FC Bayern World Squad against Hertha BSC U19 (85 min) and FC Bayern U19 (51 min), July 2026.</p></div>
+        <div class="card verdict"><div class="k">Projection</div><div class="big sm">Professional pathway</div><p>First-team squad in a European second tier, or a top-flight U21 / B team, within 12–24 months given a full competitive season.</p></div>
+        <div class="card verdict"><div class="k">Readiness</div><div class="big sm">Developmental</div><p>Physically ready now. Needs regular 11-a-side minutes in an adult or elite U19 environment to convert output into consistency.</p></div>
+        <div class="card verdict"><div class="k">Primary profile</div><div class="big sm">Engine right-back</div><p>High repeat-intensity output, comfortable in build-up, strikes the ball well from distance and dead balls. Covers CB and DM.</p></div>
+      </div>
+      <div class="cards c2" style="margin-top:14px">
+        <div class="card">
+          <h3>Why this player</h3>
+          <ul class="clean">
+            <li><span class="dot"></span><span><b>Highest physical load in the squad</b> against Hertha BSC U19: PlayerLoad 1021 (1st of 18), 8,925 m and 33 explosive efforts in 85 minutes, three months after foot surgery. <a class="ev" href="#s6">data</a></span></li>
+            <li><span class="dot"></span><span><b>Selected out of thousands of applicants</b> as the only Colombian in the Bayern World Squad Class of '26 (23 players, 15 countries) and given the starting right-back role. <a class="ev" href="#s10">context</a></span></li>
+            <li><span class="dot"></span><span><b>Winning habits</b>: national Sub-15 champion and two Sub-17 Interclubes seasons as a regular with CD Estudiantil (46 and 45 games), Gatorade 5v5 national champion and world runner-up. <a class="ev" href="#s9">timeline</a></span></li>
+            <li><span class="dot"></span><span><b>Zero acquisition cost</b>: free agent, no transfer fee, 18 years old so no FIFA minor restrictions. Training compensation is the only cost line and is estimated below. <a class="ev" href="#s13">estimate</a></span></li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>What a club must know</h3>
+          <ul class="clean">
+            <li><span class="dot dev"></span><span><b>Level jump still to come.</b> His competitive minutes are Colombian amateur/academy football plus six World Squad friendlies. Expect an adaptation period against senior tempo.</span></li>
+            <li><span class="dot dev"></span><span><b>Far-post awareness in central transitions</b> is the main tactical development area. Neither Hertha goal came down his side, but the recovery lines can be earlier. <a class="ev" href="#s5">detail</a></span></li>
+            <li><span class="dot dev"></span><span><b>Non-EU passport.</b> Work-permit and foreigner-quota rules apply per country; no second passport is known. <a class="ev" href="#s12">market</a></span></li>
+            <li><span class="dot dev"></span><span><b>Injury history</b>: fifth-metatarsal fracture (right foot), surgery 28 Mar 2026, full interdisciplinary return-to-play completed and documented. <a class="ev" href="#s14">medical</a></span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 02 -->
+    <section class="sec" id="s2">
+      <div class="sec-head"><span class="n">02</span><h2>Player snapshot</h2></div>
+      <div class="grid2">
+        <div class="card">
+          <div class="kv">
+            <div class="k">Full name</div><div>Juan David Posada Maldonado</div>
+            <div class="k">Date of birth</div><div>13 April 2008 (18)</div>
+            <div class="k">Nationality</div><div>Colombian · single passport (non-EU)</div>
+            <div class="k">Height / weight</div><div>1.80 m / 72 kg <span class="status">(FC Bayern World Squad profile, June 2026)</span></div>
+            <div class="k">Stronger foot</div><div>Right</div>
+            <div class="k">Positions</div><div>Right-back (main) · centre-back · defensive midfielder</div>
+            <div class="k">Current club</div><div>Free agent. Last club: CD Estudiantil (Medellín, Colombia)</div>
+            <div class="k">Contract</div><div>None. Never registered as a professional</div>
+            <div class="k">Representation</div><div>FUTBOOM Agency · Julieth González (FIFA-licensed football agent, Germany)</div>
+            <div class="k">Residence</div><div>Medellín, Colombia · training at X-Move Human Performance</div>
+            <div class="k">Languages</div><div>Spanish (native) · English <span class="chip ver">verify</span></div>
+            <div class="k">Shirt</div><div>#2, FC Bayern World Squad Class of '26</div>
+            <div class="k">Social</div><div><a href="https://www.instagram.com/posada05__/" target="_blank" rel="noopener">@posada05__</a></div>
+            <div class="k">Availability</div><div>Immediate · trial or direct signing</div>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Positional map</h3>
+          <svg class="pitch" viewBox="0 0 330 210" role="img" aria-label="Pitch map: main position right-back, secondary centre-back and defensive midfield">
+            <rect class="g" x="0" y="0" width="330" height="210" rx="6"/>
+            <rect class="l" x="8" y="8" width="314" height="194"/>
+            <line class="l" x1="165" y1="8" x2="165" y2="202"/>
+            <circle class="l" cx="165" cy="105" r="26"/>
+            <rect class="l" x="8" y="55" width="46" height="100"/>
+            <rect class="l" x="276" y="55" width="46" height="100"/>
+            <rect class="l" x="8" y="80" width="16" height="50"/>
+            <rect class="l" x="306" y="80" width="16" height="50"/>
+            <circle class="zone" cx="92" cy="40" r="16"/>
+            <circle class="zone2" cx="60" cy="105" r="15"/>
+            <circle class="zone2" cx="118" cy="105" r="15"/>
+            <text x="92" y="44" text-anchor="middle" font-size="10" font-weight="700" fill="#fff" font-family="IBM Plex Mono, monospace">RB</text>
+            <text x="60" y="109" text-anchor="middle" font-size="9" font-weight="700" fill="#fff" font-family="IBM Plex Mono, monospace">CB</text>
+            <text x="118" y="109" text-anchor="middle" font-size="9" font-weight="700" fill="#fff" font-family="IBM Plex Mono, monospace">DM</text>
+            <text x="20" y="20" font-size="8" fill="rgba(255,255,255,.8)" font-family="IBM Plex Mono, monospace">OWN GOAL →</text>
+          </svg>
+          <p class="note">Main position in solid orange. Positions covered when required in translucent orange. At World Squad level he was used exclusively at right-back in a back four.</p>
+          <div class="kv" style="margin-top:8px">
+            <div class="k">Last competitive</div><div>FC Bayern U19 1–2 FC Bayern World Squad, 8 Jul 2026 (51 min, RB)</div>
+            <div class="k">Registration</div><div>Amateur (Colombia). International transfer certificate via Federación Colombiana de Fútbol on signing</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 03 -->
+    <section class="sec" id="s3">
+      <div class="sec-head"><span class="n">03</span><h2>Role profile &amp; tactical fit</h2><span class="chip hot">scout view</span></div>
+      <div class="cards c3">
+        <div class="card">
+          <h3>Role profile</h3>
+          <ul class="clean">
+            <li><span class="dot"></span><span>Modern full-back who defends the wide channel first and joins the attack second.</span></li>
+            <li><span class="dot"></span><span>Deep, wide outlet in goalkeeper build-up; receives on the back foot and plays forward early.</span></li>
+            <li><span class="dot"></span><span>Progresses the ball through carries into the opponent's half when the team chases the game.</span></li>
+            <li><span class="dot"></span><span>Dead-ball option: long-range striking and free-kick delivery documented in club footage.</span></li>
+            <li><span class="dot"></span><span>Centre-back background gives him aerial presence and duel comfort for a full-back.</span></li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Preferred environments</h3>
+          <ul class="clean">
+            <li><span class="dot"></span><span><b>Back four</b> with a full-back asked to run the flank for 90 minutes.</span></li>
+            <li><span class="dot"></span><span><b>Possession teams</b> that use the full-back as the wide build-up outlet.</span></li>
+            <li><span class="dot"></span><span><b>Transition-oriented systems</b> that reward repeat sprints and recovery runs.</span></li>
+            <li><span class="dot"></span><span><b>Back three / five</b> as a right wing-back, given his engine, or as the right centre-back.</span></li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Less suited to</h3>
+          <ul class="clean">
+            <li><span class="dot dev"></span><span>An inverted full-back role as the team's primary creator between the lines. His game is vertical, not a half-space playmaker.</span></li>
+            <li><span class="dot dev"></span><span>A squad with no Spanish-speaking staff and no integration plan: first move abroad, first professional environment.</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 04 -->
+    <section class="sec" id="s4">
+      <div class="sec-head"><span class="n">04</span><h2>Scouting report</h2><span class="chip hot">scout view</span>
+        <p class="lede">FUTBOOM assessment from two full FC Bayern World Squad matches watched in full (Hertha BSC U19, 5 Jul 2026; FC Bayern U19, 8 Jul 2026), the 2025 club footage reel, Openfield GPS reports for both matches, X-Move physical testing and public records. The scale is relative to what a professional U19/U21 environment in Europe demands, not to his age group in Colombia.</p></div>
+      <div class="legend"><span><i style="background:var(--surface-2);border:1px solid var(--line)"></i>Developing</span><span><i style="background:var(--accent)"></i>Solid → Good → Strong</span><span><i style="background:var(--good)"></i>Standout</span></div>
+      <div class="rep" style="margin-top:14px">
+        <div class="card">
+          <h3>Technical <span class="chip">reel + matches</span></h3>
+          <div class="attr"><div><div class="name">Ball striking</div><div class="scale"><i class="f"></i><i class="f"></i><i class="f"></i><i class="f"></i><i></i></div><div class="lvl">Strong</div></div><div></div><div class="obs">Clean, powerful contact from 25–30 m and from free kicks in club footage; the standout technical trait for a defender.<a class="ev" href="https://www.youtube.com/watch?v=0t7xyxkVx2M" target="_blank" rel="noopener">reel</a></div></div>
+          <div class="attr"><div><div class="name">First touch</div><div class="scale"><i class="f"></i><i class="f"></i><i></i><i></i><i></i></div><div class="lvl">Solid</div></div><div></div><div class="obs">Secure under low pressure as a deep outlet; needs to be quicker when pressed on the touchline at senior tempo.<a class="ev" href="https://www.youtube.com/watch?v=gaLFvJB2dCc&t=3140s" target="_blank" rel="noopener">47'</a></div></div>
+          <div class="attr"><div><div class="name">Short passing</div><div class="scale"><i class="f"></i><i class="f"></i><i></i><i></i><i></i></div><div class="lvl">Solid</div></div><div></div><div class="obs">Reliable, mostly safe. Plays the simple ball to the six or the winger; few line-breaking passes seen.</div></div>
+          <div class="attr"><div><div class="name">Long passing</div><div class="scale"><i class="f"></i><i class="f"></i><i class="f"></i><i></i><i></i></div><div class="lvl">Good</div></div><div></div><div class="obs">Comfortable switching play and hitting diagonals; the same striking mechanics as his shooting.</div></div>
+          <div class="attr"><div><div class="name">Ball carrying</div><div class="scale"><i class="f"></i><i class="f"></i><i class="f"></i><i></i><i></i></div><div class="lvl">Good</div></div><div></div><div class="obs">Drives into the opponent's half with the ball when space opens on the flank.<a class="ev" href="https://www.youtube.com/watch?v=gaLFvJB2dCc&t=3380s" target="_blank" rel="noopener">51'</a></div></div>
+          <div class="attr"><div><div class="name">Crossing</div><div class="scale"><i class="f"></i><i class="f"></i><i></i><i></i><i></i></div><div class="lvl">Solid</div></div><div></div><div class="obs">Limited evidence at World Squad level; club footage shows early, driven deliveries rather than floated crosses.</div></div>
+          <div class="attr"><div><div class="name">1v1 defending</div><div class="scale"><i class="f"></i><i class="f"></i><i class="f"></i><i></i><i></i></div><div class="lvl">Good</div></div><div></div><div class="obs">Patient body shape, shows the winger outside, does not dive in. Held Hertha's left winger without being beaten in the second half.<a class="ev" href="https://www.youtube.com/watch?v=gaLFvJB2dCc&t=3585s" target="_blank" rel="noopener">54'</a></div></div>
+          <div class="attr"><div><div class="name">Aerial duels</div><div class="scale"><i class="f"></i><i class="f"></i><i class="f"></i><i></i><i></i></div><div class="lvl">Good</div></div><div></div><div class="obs">Centre-back habits: attacks the ball at set pieces, cleared the first corner against FC Bayern U19.<a class="ev" href="https://www.youtube.com/watch?v=sSs4QmO7GRg&t=2392s" target="_blank" rel="noopener">34'</a></div></div>
+          <div class="attr"><div><div class="name">Weak foot</div><div class="scale"><i class="f"></i><i></i><i></i><i></i><i></i></div><div class="lvl">Developing</div></div><div></div><div class="obs">Not enough left-foot actions observed to rate; assume right-foot dominant.</div></div>
+        </div>
+        <div class="card">
+          <h3>Tactical <span class="chip">matches</span></h3>
+          <div class="attr"><div><div class="name">Defensive positioning</div><div class="scale"><i class="f"></i><i class="f"></i><i class="f"></i><i></i><i></i></div><div class="lvl">Good</div></div><div></div><div class="obs">Holds the line with the centre-backs, tucks in when the ball is on the far side, tracks runners into the box.</div></div>
+          <div class="attr"><div><div class="name">Transition defending</div><div class="scale"><i class="f"></i><i class="f"></i><i class="f"></i><i class="f"></i><i></i></div><div class="lvl">Strong</div></div><div></div><div class="obs">Recovers to the far post at full sprint on both Hertha goals, which came through the centre after midfield turnovers.<a class="ev" href="https://www.youtube.com/watch?v=gaLFvJB2dCc&t=760s" target="_blank" rel="noopener">12'</a><a class="ev" href="https://www.youtube.com/watch?v=gaLFvJB2dCc&t=1590s" target="_blank" rel="noopener">26'</a></div></div>
+          <div class="attr"><div><div class="name">Build-up involvement</div><div class="scale"><i class="f"></i><i class="f"></i><i class="f"></i><i></i><i></i></div><div class="lvl">Good</div></div><div></div><div class="obs">Always available as the wide, deep option for the goalkeeper and right centre-back; wants the ball.<a class="ev" href="https://www.youtube.com/watch?v=gaLFvJB2dCc&t=3140s" target="_blank" rel="noopener">47'</a></div></div>
+          <div class="attr"><div><div class="name">Offensive positioning</div><div class="scale"><i class="f"></i><i class="f"></i><i></i><i></i><i></i></div><div class="lvl">Solid</div></div><div></div><div class="obs">Overlaps when the winger comes inside; timing of the run and the final decision (cross, cut-back, recycle) still improve with repetition.</div></div>
+          <div class="attr"><div><div class="name">Pressing</div><div class="scale"><i class="f"></i><i class="f"></i><i></i><i></i><i></i></div><div class="lvl">Solid</div></div><div></div><div class="obs">Jumps to the full-back on the trigger; in a mixed-nationality squad assembled in four weeks the collective press was inconsistent, so individual reading is hard to isolate.</div></div>
+          <div class="attr"><div><div class="name">Far-side awareness</div><div class="scale"><i class="f"></i><i class="f"></i><i></i><i></i><i></i></div><div class="lvl">Solid</div></div><div></div><div class="obs">Main development area: when the ball is central and lost, the first step back can be earlier so the far-post space is closed before the cross.</div></div>
+          <div class="attr"><div><div class="name">Versatility</div><div class="scale"><i class="f"></i><i class="f"></i><i class="f"></i><i class="f"></i><i></i></div><div class="lvl">Strong</div></div><div></div><div class="obs">RB, CB and DM in his development years; used in several positions during the Internacional de Bogotá evaluation period in 2026.</div></div>
+        </div>
+        <div class="card">
+          <h3>Physical <span class="chip">GPS + testing</span></h3>
+          <div class="attr"><div><div class="name">Repeat high intensity</div><div class="scale"><i class="f"></i><i class="f"></i><i class="f"></i><i class="f"></i><i class="f top"></i></div><div class="lvl">Standout</div></div><div></div><div class="obs">PlayerLoad 1021 in 85 min, first of 18 players; 12.6 PL/min in the first half against Hertha, second highest on the pitch.<a class="ev" href="#s6">data</a></div></div>
+          <div class="attr"><div><div class="name">Endurance</div><div class="scale"><i class="f"></i><i class="f"></i><i class="f"></i><i class="f"></i><i></i></div><div class="lvl">Strong</div></div><div></div><div class="obs">8,925 m at 104.6 m/min for 85 minutes, then 108.7 m/min three days later against FC Bayern U19.</div></div>
+          <div class="attr"><div><div class="name">Explosiveness</div><div class="scale"><i class="f"></i><i class="f"></i><i class="f"></i><i class="f"></i><i></i></div><div class="lvl">Strong</div></div><div></div><div class="obs">33 explosive efforts vs Hertha (4th of 18); CMJ 42.3 cm and drop-jump RSI 1.18–1.25 in X-Move testing.</div></div>
+          <div class="attr"><div><div class="name">Top speed</div><div class="scale"><i class="f"></i><i class="f"></i><i class="f"></i><i></i><i></i></div><div class="lvl">Good</div></div><div></div><div class="obs">29.9 km/h max against Hertha (squad range 24–32 km/h). Fast enough for the role, not a pure sprinter.</div></div>
+          <div class="attr"><div><div class="name">Acceleration / agility</div><div class="scale"><i class="f"></i><i class="f"></i><i class="f"></i><i></i><i></i></div><div class="lvl">Good</div></div><div></div><div class="obs">Sharp first steps in recovery runs; change of direction on the flank is fluid rather than explosive.</div></div>
+          <div class="attr"><div><div class="name">Strength in duels</div><div class="scale"><i class="f"></i><i class="f"></i><i class="f"></i><i></i><i></i></div><div class="lvl">Good</div></div><div></div><div class="obs">Holds his ground shoulder to shoulder; frame (1.80 m, 72 kg) has room to add muscle in a professional programme.</div></div>
+        </div>
+        <div class="card">
+          <h3>Mental &amp; behavioural <span class="chip">matches + references</span></h3>
+          <div class="attr"><div><div class="name">Leadership</div><div class="scale"><i class="f"></i><i class="f"></i><i class="f"></i><i class="f"></i><i></i></div><div class="lvl">Strong</div></div><div></div><div class="obs">Team captain through his development years; visibly organising the back line and the winger in front of him in Berlin.<a class="ev" href="https://www.youtube.com/watch?v=gaLFvJB2dCc&t=3585s" target="_blank" rel="noopener">54'</a></div></div>
+          <div class="attr"><div><div class="name">Competitive mentality</div><div class="scale"><i class="f"></i><i class="f"></i><i class="f"></i><i class="f"></i><i></i></div><div class="lvl">Strong</div></div><div></div><div class="obs">Output did not drop at 0–2 down; the team came back to 2–2 with him on the pitch until the 84th minute.</div></div>
+          <div class="attr"><div><div class="name">Adaptability</div><div class="scale"><i class="f"></i><i class="f"></i><i class="f"></i><i class="f"></i><i></i></div><div class="lvl">Strong</div></div><div></div><div class="obs">Four weeks in Munich and South Korea with a 23-player, 15-nation squad; earned a starting place in a foreign-language environment.</div></div>
+          <div class="attr"><div><div class="name">Resilience</div><div class="scale"><i class="f"></i><i class="f"></i><i class="f"></i><i class="f"></i><i></i></div><div class="lvl">Strong</div></div><div></div><div class="obs">Surgery on 28 March, cleared for football-specific work in May, 85 competitive minutes on 5 July.<a class="ev" href="#s14">medical</a></div></div>
+          <div class="attr"><div><div class="name">Coachability</div><div class="scale"><i class="f"></i><i class="f"></i><i class="f"></i><i></i><i></i></div><div class="lvl">Good</div></div><div></div><div class="obs">X-Move reports high adherence across a five-stage rehabilitation and training programme; sporting reference available.<a class="ev" href="#s15">refs</a></div></div>
+          <div class="attr"><div><div class="name">Composure</div><div class="scale"><i class="f"></i><i class="f"></i><i></i><i></i><i></i></div><div class="lvl">Solid</div></div><div></div><div class="obs">Calm in possession; occasionally rushes the clearance when the box is crowded. Normal for the age and level.</div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 05 -->
+    <section class="sec" id="s5">
+      <div class="sec-head"><span class="n">05</span><h2>Strengths &amp; development areas</h2><span class="chip hot">scout view</span></div>
+      <div class="cards c2">
+        <div class="card">
+          <h3>Key strengths</h3>
+          <ul class="clean">
+            <li><span class="dot"></span><span><b>Physical output that sets the ceiling.</b> Top PlayerLoad and top-four explosive efforts in the squad against a Bundesliga academy, on the fifth match of a four-week tour. Full-backs who can repeat that every three days are scarce at 18.</span></li>
+            <li><span class="dot"></span><span><b>Recovery running.</b> On both Hertha goals he is the defender arriving at the far post at full sprint. It is the habit that keeps full-backs in professional teams.</span></li>
+            <li><span class="dot"></span><span><b>Ball striking from a defensive position.</b> Long-range shooting and free-kick delivery give a coach a set-piece option from the back line.</span></li>
+            <li><span class="dot"></span><span><b>Positional range.</b> Genuine cover at right centre-back and as a defensive midfielder, which matters for a first-team squad with 20 outfield players.</span></li>
+            <li><span class="dot"></span><span><b>Character and leadership.</b> Captaincy history, visible communication, and a documented return from surgery without shortcuts.</span></li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Development areas <span class="status">with context</span></h3>
+          <ul class="clean">
+            <li><span class="dot dev"></span><span><b>Far-post space in defensive transitions.</b> Positioning is correct once set; the development is the first two steps after a central turnover, so that the far-post space is closed before the cross rather than on it.</span></li>
+            <li><span class="dot dev"></span><span><b>Final action after the overlap.</b> The run arrives; the choice between an early cross, a cut-back and a recycle is still made a beat late. Improves with volume of attacking repetitions.</span></li>
+            <li><span class="dot dev"></span><span><b>Playing forward through pressure.</b> Under a well-organised press his first choice is the safe ball. A senior environment with a clear build-up model will speed his scanning.</span></li>
+            <li><span class="dot dev"></span><span><b>Weak-foot use and left-side crossing</b> remain unproven at this level.</span></li>
+            <li><span class="dot dev"></span><span><b>Exposure.</b> Six international friendlies is a small sample. The first six months in Europe should be treated as an evaluation period on both sides.</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 06 -->
+    <section class="sec" id="s6">
+      <div class="sec-head"><span class="n">06</span><h2>Performance data</h2><p class="lede">Openfield (Catapult) GPS reports from the FC Bayern World Squad staff, both matches, plus X-Move Human Performance testing. Raw PDFs are in the document center.</p></div>
+      <div class="tiles">
+        <div class="tile"><div class="k">PlayerLoad · vs Hertha U19</div><div class="v">1021</div><div class="d">1st of 18 players · squad average 557</div></div>
+        <div class="tile"><div class="k">Distance · vs Hertha U19</div><div class="v">8,925<small>m</small></div><div class="d">85:20 on the pitch · 104.6 m/min</div></div>
+        <div class="tile"><div class="k">Explosive efforts</div><div class="v">33</div><div class="d">4th of 18 · squad average 20</div></div>
+        <div class="tile"><div class="k">Max speed</div><div class="v">29.9<small>km/h</small></div><div class="d">27.9 km/h three days later vs FC Bayern U19</div></div>
+      </div>
+      <div class="tscroll" style="margin-top:14px">
+        <table>
+          <thead><tr><th>Date</th><th>Match</th><th>Result</th><th>Position</th><th class="num">Minutes</th><th class="num">Distance</th><th class="num">m/min</th><th class="num">PlayerLoad</th><th class="num">PL/min (1H)</th><th class="num">Expl. efforts</th><th class="num">Max km/h</th></tr></thead>
+          <tbody>
+            <tr><td class="mono">05.07.2026</td><td>Hertha BSC U19 2–2 FC Bayern World Squad · Berlin</td><td>D</td><td>RB, started</td><td class="num">85:20</td><td class="num">8,925</td><td class="num">104.6</td><td class="num">1021</td><td class="num">12.63</td><td class="num">33</td><td class="num">29.9</td></tr>
+            <tr><td class="mono">08.07.2026</td><td>FC Bayern U19 2–1 FC Bayern World Squad · FC Bayern Campus</td><td>L</td><td>RB, started · off 49'</td><td class="num">51:18</td><td class="num">5,579</td><td class="num">108.7</td><td class="num">562</td><td class="num">10.70</td><td class="num">14</td><td class="num">27.9</td></tr>
+            <tr><td class="mono" colspan="4" style="color:var(--muted)">Squad average, both matches</td><td class="num" style="color:var(--muted)">52:45 / 66:45</td><td class="num" style="color:var(--muted)">5,811 / 7,487</td><td class="num" style="color:var(--muted)">110.2 / 112.2</td><td class="num" style="color:var(--muted)">557 / 720</td><td class="num" style="color:var(--muted)">10.53 / 10.62</td><td class="num" style="color:var(--muted)">20 / 25</td><td class="num" style="color:var(--muted)">28.7 / 29.4</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="grid2" style="margin-top:16px">
+        <div class="chart">
+          <h3>PlayerLoad, Hertha BSC U19 match</h3>
+          <div class="sub">All 18 FC Bayern World Squad players who played · minutes in brackets</div>
+          <div id="chartPL"></div>
+        </div>
+        <div class="chart">
+          <h3>Posada vs squad average</h3>
+          <div class="sub">Indexed, squad average = 100 · Hertha match (85 min) and first half vs FC Bayern U19</div>
+          <div id="chartIdx"></div>
+          <div class="legend"><span><i style="background:var(--chart-accent)"></i>vs Hertha U19</span><span><i style="background:var(--chart-2)"></i>vs FC Bayern U19 (1H)</span><span><i style="width:18px;height:0;border-top:2px dashed var(--ink)"></i>Squad average</span></div>
+        </div>
+      </div>
+      <div class="grid2" style="margin-top:16px">
+        <div class="card">
+          <h3>Physical testing <span class="status">X-Move Human Performance, 2026</span></h3>
+          <div class="tscroll"><table>
+            <thead><tr><th>Test</th><th class="num">Result</th><th>Note</th></tr></thead>
+            <tbody>
+              <tr><td>Countermovement jump (CMJ)</td><td class="num">42.3 cm</td><td>Lower-body power</td></tr>
+              <tr><td>Drop jump 15 cm</td><td class="num">28.6 cm · RSI 1.20</td><td>Reactive strength</td></tr>
+              <tr><td>Drop jump 30 cm</td><td class="num">31.2 cm · RSI 1.18</td><td></td></tr>
+              <tr><td>Drop jump 40 cm</td><td class="num">34.1 cm · RSI 1.25</td><td>Best reactive index at the highest box</td></tr>
+              <tr><td>Functional Movement Screen</td><td class="num">completed</td><td>Used to programme the training block</td></tr>
+              <tr><td>Load–velocity profiles</td><td class="num">squat · bench</td><td>Individualised strength prescription</td></tr>
+            </tbody>
+          </table></div>
+        </div>
+        <div class="card">
+          <h3>Club record <span class="status">CD Estudiantil, Difutbol Sub-17 Interclubes</span></h3>
+          <div class="tscroll"><table>
+            <thead><tr><th>Season</th><th>Competition</th><th class="num">Games</th><th class="num">Clean sheets</th><th class="num">Goals</th></tr></thead>
+            <tbody>
+              <tr><td class="mono">2024</td><td>Torneo Nacional Interclubes Sub-17</td><td class="num">45</td><td class="num">12</td><td class="num">—</td></tr>
+              <tr><td class="mono">2023</td><td>Torneo Nacional Interclubes Sub-17</td><td class="num">46</td><td class="num">17</td><td class="num">—</td></tr>
+            </tbody>
+          </table></div>
+          <p class="note">Games and clean sheets from club and agency records. Goals and assists were not tracked by the competition; individual event data does not exist for Colombian amateur youth football, which is why this dossier relies on full-match video and GPS instead.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 07 -->
+    <section class="sec" id="s7">
+      <div class="sec-head"><span class="n">07</span><h2>Video library</h2><p class="lede">Two complete matches with official broadcast commentary and one club reel. Timestamps open the exact moment on YouTube. Posada wears #2 in red for the World Squad.</p></div>
+      <div class="vids">
+        <div class="vid">
+          <div class="th"><img src="img/thumb-hertha.jpg" alt="Hertha BSC U19 against FC Bayern World Squad, Berlin"><a class="play" href="https://www.youtube.com/watch?v=gaLFvJB2dCc" target="_blank" rel="noopener" aria-label="Watch the full match Hertha BSC U19 vs FC Bayern World Squad"><span><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span></a><span class="dur">1:39:22</span></div>
+          <div class="b"><h3>Full match · Hertha BSC U19 2–2 World Squad</h3><div class="m">05.07.2026 · Berlin · 85 min · RB · Hertha BSC TV, German commentary</div>
+            <ul>
+              <li><a href="https://www.youtube.com/watch?v=gaLFvJB2dCc&t=23s" target="_blank" rel="noopener">00:23</a>Kick-off. World Squad attack towards the left; Posada on the far side.</li>
+              <li><a href="https://www.youtube.com/watch?v=gaLFvJB2dCc&t=760s" target="_blank" rel="noopener">12:40</a>Goal conceded through the centre; watch the far-post recovery run.</li>
+              <li><a href="https://www.youtube.com/watch?v=gaLFvJB2dCc&t=1590s" target="_blank" rel="noopener">26:30</a>Second goal, again a central transition; Posada last man back at the far post.</li>
+              <li><a href="https://www.youtube.com/watch?v=gaLFvJB2dCc&t=3020s" target="_blank" rel="noopener">50:20</a>Second half, near side to camera: best viewing window.</li>
+              <li><a href="https://www.youtube.com/watch?v=gaLFvJB2dCc&t=3140s" target="_blank" rel="noopener">52:20</a>Deep, wide outlet in goalkeeper build-up.</li>
+              <li><a href="https://www.youtube.com/watch?v=gaLFvJB2dCc&t=3380s" target="_blank" rel="noopener">56:20</a>Ball carry up the right flank into the Hertha half at 0–2.</li>
+              <li><a href="https://www.youtube.com/watch?v=gaLFvJB2dCc&t=3585s" target="_blank" rel="noopener">59:45</a>Organising the line and marking the left winger.</li>
+              <li><a href="https://www.youtube.com/watch?v=gaLFvJB2dCc&t=5350s" target="_blank" rel="noopener">89:10</a>Substituted after 85 minutes; 2–2 final score.</li>
+            </ul></div>
+        </div>
+        <div class="vid">
+          <div class="th"><img src="img/thumb-bayern.jpg" alt="FC Bayern U19 against FC Bayern World Squad at the FC Bayern Campus"><a class="play" href="https://www.youtube.com/watch?v=sSs4QmO7GRg" target="_blank" rel="noopener" aria-label="Watch the full match FC Bayern U19 vs FC Bayern World Squad"><span><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span></a><span class="dur">1:56:45</span></div>
+          <div class="b"><h3>Full match · FC Bayern U19 2–1 World Squad</h3><div class="m">08.07.2026 · FC Bayern Campus, Munich · 51 min · RB · FC Bayern TV, Spanish commentary</div>
+            <ul>
+              <li><a href="https://www.youtube.com/watch?v=sSs4QmO7GRg&t=360s" target="_blank" rel="noopener">06:00</a>Line-ups and kick-off: "Posada, colombiano, número dos, lateral derecho".</li>
+              <li><a href="https://www.youtube.com/watch?v=sSs4QmO7GRg&t=1190s" target="_blank" rel="noopener">19:50</a>0–1 Seung-Min Han (14').</li>
+              <li><a href="https://www.youtube.com/watch?v=sSs4QmO7GRg&t=2392s" target="_blank" rel="noopener">39:52</a>Bayern corner cleared by Posada; the commentary calls it.</li>
+              <li><a href="https://www.youtube.com/watch?v=sSs4QmO7GRg&t=3870s" target="_blank" rel="noopener">64:30</a>Second half kick-off; Posada continues at right-back.</li>
+              <li><a href="https://www.youtube.com/watch?v=sSs4QmO7GRg&t=4109s" target="_blank" rel="noopener">68:29</a>Substituted in the 49th minute (planned rotation, six friendlies in 19 days).</li>
+              <li><a href="https://www.youtube.com/watch?v=sSs4QmO7GRg&t=6870s" target="_blank" rel="noopener">1:54:30</a>Closing summary: "también los laterales brillaron… Posada en la primera".</li>
+            </ul></div>
+        </div>
+        <div class="vid">
+          <div class="th"><img src="img/thumb-highlights.jpg" alt="Highlights reel title card"><a class="play" href="https://www.youtube.com/watch?v=0t7xyxkVx2M" target="_blank" rel="noopener" aria-label="Watch the 2025 highlights reel"><span><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span></a><span class="dur">2:47</span></div>
+          <div class="b"><h3>Club reel 2025 · CD Estudiantil</h3><div class="m">Copa por la Paz and Copa Internacional final vs Independiente Medellín · FUTBOOM edit</div>
+            <ul>
+              <li><a href="https://www.youtube.com/watch?v=0t7xyxkVx2M&t=0s" target="_blank" rel="noopener">00:00</a>Defensive actions and duels in the Interclubes context.</li>
+              <li><a href="https://www.youtube.com/watch?v=0t7xyxkVx2M&t=60s" target="_blank" rel="noopener">01:00</a>Ball striking: long-range shots and free kicks.</li>
+              <li><a href="https://www.youtube.com/watch?v=0t7xyxkVx2M&t=155s" target="_blank" rel="noopener">02:35</a>Profile card with club record.</li>
+            </ul>
+            <p class="note" style="margin-top:10px">Club footage is single-camera and unedited by opponents' clubs. Treat it as context for technique, not for level.</p></div>
+        </div>
+      </div>
+      <div class="stills">
+        <div class="still"><img src="img/ev-farpost.jpg" alt="Posada arriving at the far post as Hertha score" loading="lazy"><div class="c"><b>12:37 · Far-post recovery</b>Hertha's first goal arrives through the middle. Posada (#2, red) is the deepest recovering defender.</div></div>
+        <div class="still"><img src="img/ev-organising.jpg" alt="Posada with arms out organising the defensive line" loading="lazy"><div class="c"><b>59:45 · Organising</b>Arms out, setting the line and the winger's press before Hertha restart. Communication is visible on the broadcast.</div></div>
+        <div class="still"><img src="img/ev-carry.jpg" alt="Posada carrying the ball up the right flank" loading="lazy"><div class="c"><b>56:20 · Flank carry</b>At 0–2 he drives into the Hertha half on the right with López ahead of him.</div></div>
+      </div>
+    </section>
+
+    <!-- 08 -->
+    <section class="sec" id="s8">
+      <div class="sec-head"><span class="n">08</span><h2>Evidence map</h2><p class="lede">Every important claim in this dossier and where it can be checked.</p></div>
+      <div class="card">
+        <ul class="clean claims">
+          <li><span>Selected for the FC Bayern World Squad Class of '26 (#2, defender, 1.80 m, 72 kg)<span class="src">fcbayern.com player profile · announcement 5 June 2026</span></span><span><a class="ev" href="https://fcbayern.com/en/teams/world-squad/players/juan-david-posada" target="_blank" rel="noopener">profile</a> <a class="ev" href="https://www.instagram.com/p/DZNjD6nl4tu/" target="_blank" rel="noopener">announcement</a></span></li>
+          <li><span>Colombia U17 call-up, preparation microcycle 18–28 June 2024, listed as C.D. Estudiantil<span class="src">Federación Colombiana de Fútbol</span></span><span><a class="ev" href="https://fcf.com.co/2024/06/10/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-preparacion-junio-2024/" target="_blank" rel="noopener">FCF</a></span></li>
+          <li><span>Started at right-back and played 85 minutes vs Hertha BSC U19, 2–2<span class="src">Hertha BSC match report · full match video · Openfield report</span></span><span><a class="ev" href="https://www.herthabsc.com/de/nachrichten/2026/07/u19-spielbericht-bscfcb-2627" target="_blank" rel="noopener">report</a> <a class="ev" href="docs/openfield-hertha-2026-07-05.pdf" target="_blank" rel="noopener">GPS</a></span></li>
+          <li><span>Started at right-back vs FC Bayern U19, 1–2, 51 minutes<span class="src">FC Bayern match report · Openfield report</span></span><span><a class="ev" href="https://fcbayern.com/de/news/spielberichte/2026/07/spielbericht-fc-bayern-u19---fc-bayern-world-squad" target="_blank" rel="noopener">report</a> <a class="ev" href="docs/openfield-bayern-u19-2026-07-08.pdf" target="_blank" rel="noopener">GPS</a></span></li>
+          <li><span>Highest PlayerLoad in the squad vs Hertha (1021), 8,925 m, 33 explosive efforts, 29.88 km/h<span class="src">Openfield athlete report, page 1</span></span><span><a class="ev" href="docs/openfield-hertha-2026-07-05.pdf" target="_blank" rel="noopener">PDF</a></span></li>
+          <li><span>Difutbol Torneo Nacional Interclubes Sub-15 champion 2023 with CD Estudiantil (roster lists Juan David Posada)<span class="src">Cápsulas · Difutbol registration list</span></span><span><a class="ev" href="https://capsulas.com.co/club-estudiantil-de-medellin-campeon-nacional-sub-15/" target="_blank" rel="noopener">article</a> <a class="ev" href="https://difutbol.org/wp-content/uploads/2023/06/sub152023.pdf" target="_blank" rel="noopener">Difutbol</a></span></li>
+          <li><span>Gatorade 5v5 Colombia champion 2024 and world-final runner-up (London, 1 June 2024)<span class="src">El Colombiano · PepsiCo press release</span></span><span><a class="ev" href="https://www.elcolombiano.com/deportes/futbol/club-estudiantil-de-medellin-y-antioquenas-de-bello-iran-a-la-final-de-champions-league-MA24177380" target="_blank" rel="noopener">El Colombiano</a></span></li>
+          <li><span>Fifth-metatarsal surgery 28 March 2026 and completed return-to-play programme<span class="src">X-Move Human Performance interdisciplinary report</span></span><span><a class="ev" href="docs/xmove-rehab-report.pdf" target="_blank" rel="noopener">PDF</a></span></li>
+          <li><span>Selección Antioquia Sub-15 national champion<span class="src">Agency record; competition roster not yet published</span></span><span><span class="chip ver">verify</span></span></li>
+          <li><span>Internacional de Bogotá evaluation and recommendation, 2026<span class="src">Sporting director available as a direct reference</span></span><span><a class="ev" href="#s15">reference</a></span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 09 -->
+    <section class="sec" id="s9">
+      <div class="sec-head"><span class="n">09</span><h2>Career timeline</h2></div>
+      <div class="grid2">
+        <div class="tl">
+          <div class="it"><div class="y">April 2008</div><div class="t">Born, Colombia</div><div class="d">Raised through the Antioquia youth system; Medellín based.</div></div>
+          <div class="it"><div class="y">2023</div><div class="t">CD Estudiantil · Sub-15 national champions</div><div class="d">Difutbol Torneo Nacional Interclubes Sub-15, final 2–0 vs Deportivo Cali (Rionegro). Same year: 46 games in the Sub-17 Interclubes at 15.</div></div>
+          <div class="it ver"><div class="y">2023 / 24</div><div class="t">Selección Antioquia Sub-15 · national champions</div><div class="d">Departmental selection title. <span class="chip ver">verify roster</span></div></div>
+          <div class="it"><div class="y">April – June 2024</div><div class="t">Gatorade 5v5 · Colombia champion, world runner-up</div><div class="d">Won the national final in Medellín, represented Colombia at the Global Finals in London (final lost 1–5 to Brazil), attended the Champions League final at Wembley.</div></div>
+          <div class="it"><div class="y">June 2024</div><div class="t">Colombia U17 · national team call-up</div><div class="d">23-man microcycle in Bogotá and Chile under Juan Carlos Ramírez, friendlies vs Chile U17 (1–1, 1–1).</div></div>
+          <div class="it"><div class="y">2024</div><div class="t">CD Estudiantil · Sub-17 Interclubes</div><div class="d">45 games, 12 clean sheets. Captain.</div></div>
+          <div class="it warn"><div class="y">March – May 2026</div><div class="t">Fifth-metatarsal surgery and rehabilitation</div><div class="d">Surgery 28 March; sports-medicine clearance 8 April; physiotherapy, reconditioning and return-to-play at X-Move Human Performance, Medellín.</div></div>
+          <div class="it"><div class="y">June – July 2026</div><div class="t">FC Bayern World Squad Class of '26</div><div class="d">Munich, Jeju and Seoul. Six friendlies; starting right-back vs Hertha BSC U19 and FC Bayern U19.</div></div>
+          <div class="it"><div class="y">August – September 2026</div><div class="t">Internacional de Bogotá · evaluation</div><div class="d">Trained with the club in several positions; the sporting department recommended a first-team investment. The transfer did not complete for reasons unrelated to the player (see market context).</div></div>
+          <div class="it"><div class="y">Now</div><div class="t">Free agent · individual programme</div><div class="d">Three strength and conditioning sessions per week at X-Move; available for trial or signing abroad.</div></div>
+        </div>
+        <div>
+          <div class="card">
+            <h3>Development pathway</h3>
+            <div class="path">
+              <div class="card" style="background:var(--surface-2)"><div class="k">Current</div><div class="big sm">Youth international · elite academy exposure</div><p style="font-size:13px">World Squad starter, Colombia U17 call-up, amateur registration.</p></div>
+              <div class="arrow">→</div>
+              <div class="card" style="background:var(--surface-2)"><div class="k">Next</div><div class="big sm">Professional development environment</div><p style="font-size:13px">Second-tier first team or top-flight U21/B team with a first-team pathway; 1,500+ competitive minutes in season one.</p></div>
+              <div class="arrow">→</div>
+              <div class="card" style="background:var(--accent-soft)"><div class="k">Projection</div><div class="big sm">Senior professional football</div><p style="font-size:13px">Starting full-back at second-tier level by 20–21, with the physical profile to go higher if the technical ceiling follows.</p></div>
+            </div>
+          </div>
+          <div class="card" style="margin-top:14px">
+            <h3>Changelog</h3>
+            <ul class="clean changelog">
+              <li><span class="d">28 Sep 2026</span><span>v1.0 published: full video analysis of both World Squad matches, GPS data, medical summary, market context.</span></li>
+              <li><span class="d">next</span><span>Add first competitive match data at the new club; update contract and registration status.</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 10 -->
+    <section class="sec" id="s10">
+      <div class="sec-head"><span class="n">10</span><h2>International context</h2><p class="lede">Where the international experience comes from, and why the FC Bayern World Squad is meaningful evidence rather than a marketing line.</p></div>
+      <div class="grid2">
+        <div class="card">
+          <h3>FC Bayern World Squad · Class of '26</h3>
+          <p style="font-size:13.5px">A U19 international development squad run by FC Bayern with partner Audi since 2021. Players born 2008/09 are scouted from video applications and partner clubs; the club reports more than 25,000 applicants from 100 countries over five editions. The 2026 squad: 23 players from 15 countries, four weeks in Munich and South Korea, coached by Roy Makaay with Diego Contento and goalkeeping coach Bernd Dreher.</p>
+          <div class="tscroll"><table>
+            <thead><tr><th>Date</th><th>Opponent</th><th>Venue</th><th>Result</th><th>Posada</th></tr></thead>
+            <tbody>
+              <tr><td class="mono">19.06</td><td>Jeju SK U18</td><td>Jeju World Cup Stadium</td><td class="num">W 5–3</td><td class="status">minutes not published</td></tr>
+              <tr><td class="mono">23.06</td><td>FC Seoul U18</td><td>Goyang</td><td class="num">L 2–3</td><td class="status">minutes not published</td></tr>
+              <tr><td class="mono">26.06</td><td>Yeongdeungpo Technical HS</td><td>Anyang</td><td class="num">W 4–1</td><td class="status">minutes not published</td></tr>
+              <tr><td class="mono">01.07</td><td>FC Augsburg U19</td><td>Augsburg</td><td class="num">L 0–1</td><td class="status">minutes not published</td></tr>
+              <tr class="me"><td class="mono">05.07</td><td>Hertha BSC U19</td><td>Berlin</td><td class="num">D 2–2</td><td>RB · 85 min · started</td></tr>
+              <tr class="me"><td class="mono">08.07</td><td>FC Bayern U19</td><td>FC Bayern Campus</td><td class="num">L 1–2</td><td>RB · 51 min · started</td></tr>
+            </tbody>
+          </table></div>
+          <p class="note">Sources: fcbayern.com live blog and match reports, Hertha BSC, FC Augsburg, K League. The two German-broadcast matches are the ones with full video and GPS in this dossier.</p>
+        </div>
+        <div class="card">
+          <h3>Selected World Squad alumni now in professional football</h3>
+          <div class="tscroll"><table>
+            <thead><tr><th>Player</th><th>Class</th><th>Subsequent club</th></tr></thead>
+            <tbody>
+              <tr><td>Maycon Cardozo (BRA)</td><td class="mono">'24</td><td>FC Bayern first team; Bundesliga debut March 2026</td></tr>
+              <tr><td>Jae-Won Heo (KOR, GK)</td><td class="mono">'26</td><td>Loan to FC Bayern U19, July 2026</td></tr>
+              <tr><td>Daniel Francis (NGA)</td><td class="mono">'21 / '22</td><td>FC Bayern contract 2022, loan Austria Klagenfurt; now Wacker Innsbruck</td></tr>
+              <tr><td>Victor Orakpo (NGA)</td><td class="mono">'23</td><td>OGC Nice (Ligue 1)</td></tr>
+              <tr><td>Viktor Baier (CZE, GK)</td><td class="mono">'23</td><td>Viktoria Plzeň, professional contract</td></tr>
+              <tr><td>Marco Morigi (VEN)</td><td class="mono">'25</td><td>Red Bull New York II (MLS Next Pro)</td></tr>
+              <tr><td>Gyeong-Bin Mo (KOR)</td><td class="mono">'24 / '25</td><td>Suwon Samsung Bluewings</td></tr>
+              <tr><td>Giovanni de Abreu (AUS)</td><td class="mono">'25</td><td>Perth Glory (A-League)</td></tr>
+              <tr><td>Siam Yapp (THA)</td><td class="mono">'23</td><td>Buriram United</td></tr>
+              <tr><td>José Mulato (COL)</td><td class="mono">'21</td><td>Deportivo Cali, FC Dallas</td></tr>
+            </tbody>
+          </table></div>
+          <p class="note">Each row is verifiable on fcbayern.com or the receiving club's site. The programme is an international development environment that brings selected young players from different football markets together; it is context for the level he trained and played at, not a guarantee.</p>
+          <h3 style="margin-top:18px">Colombia</h3>
+          <p style="font-size:13.5px">Colombia U17 preparation microcycle, June 2024, with two friendlies against Chile U17. No call-up since; the 2025 U17 cycle overlapped with his club season and, in 2026, his injury.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 11 -->
+    <section class="sec" id="s11">
+      <div class="sec-head"><span class="n">11</span><h2>Development &amp; projection</h2><span class="chip hot">scout view</span></div>
+      <div class="cards c2">
+        <div class="card">
+          <h3>Projection factors</h3>
+          <div class="tscroll"><table>
+            <thead><tr><th>Factor</th><th>Status</th><th>Comment</th></tr></thead>
+            <tbody>
+              <tr><td>Age</td><td><span class="chip good">favourable</span></td><td>18 in April 2026; three full seasons before the age curve narrows the market.</td></tr>
+              <tr><td>Physical profile</td><td><span class="chip good">favourable</span></td><td>Output already at elite-U19 level in the metrics that transfer to senior football.</td></tr>
+              <tr><td>Technical ceiling</td><td><span class="chip warn">open</span></td><td>Striking and long passing are above the role's requirement; pressured first touch and final action decide the ceiling.</td></tr>
+              <tr><td>Tactical adaptability</td><td><span class="chip good">favourable</span></td><td>Three positions, two systems, two continents in one summer.</td></tr>
+              <tr><td>Competition level to date</td><td><span class="chip warn">open</span></td><td>Amateur elite youth in Colombia plus six international friendlies. The step to senior tempo is the unknown.</td></tr>
+              <tr><td>International exposure</td><td><span class="chip good">favourable</span></td><td>Bayern World Squad, Colombia U17, Gatorade Global Finals.</td></tr>
+              <tr><td>Trajectory</td><td><span class="chip good">favourable</span></td><td>Every year since 2023 added a higher level: club title, national team, international programme.</td></tr>
+              <tr><td>Injury</td><td><span class="chip warn">monitor</span></td><td>Recurrent fifth-metatarsal history (one conservative episode, one surgery). Fully rehabilitated; foot loading should be tracked in pre-season.</td></tr>
+            </tbody>
+          </table></div>
+        </div>
+        <div class="card">
+          <h3>Role reference in the current market</h3>
+          <p style="font-size:13.5px">The closest professional archetype is the <b>high-output right-back who defends first and adds set-piece and long-range value</b>, as opposed to the inverted, half-space creator. Clubs that run a back four with high, wide full-backs and a possession base, or a back five with running wing-backs, use this profile most.</p>
+          <p style="font-size:13.5px">This is a role comparison, not a level comparison. FUTBOOM does not attach a player name because comparisons of that kind rarely help a sporting director and never survive a first training session.</p>
+          <h3 style="margin-top:16px">Recommended next environment</h3>
+          <ul class="clean">
+            <li><span class="dot"></span><span>A first team in a European second tier, or a top-flight U21/B team in a club with a real first-team pathway.</span></li>
+            <li><span class="dot"></span><span>Playing time in the plan: a clear route to 1,500 minutes in the first season.</span></li>
+            <li><span class="dot"></span><span>Spanish-speaking staff or players and structured language support for the first six months.</span></li>
+            <li><span class="dot"></span><span>Strength and conditioning staff who continue the load–velocity work already started.</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 12 -->
+    <section class="sec" id="s12">
+      <div class="sec-head"><span class="n">12</span><h2>Market &amp; contract context</h2><p class="lede">What Transfermarkt cannot tell you: the actual deal structure.</p></div>
+      <div class="cards c3">
+        <div class="card">
+          <h3>Registration &amp; status</h3>
+          <div class="kv">
+            <div class="k">Status</div><div><span class="chip good">free agent</span></div>
+            <div class="k">Contract</div><div>None; never registered as a professional</div>
+            <div class="k">Transfer fee</div><div>None</div>
+            <div class="k">Last club</div><div>CD Estudiantil (amateur, Liga Antioqueña / Difutbol)</div>
+            <div class="k">ITC</div><div>Issued by the Federación Colombiana de Fútbol on the new club's request</div>
+            <div class="k">Minor rules</div><div>Not applicable (18). No FIFA Art. 19 exception needed</div>
+            <div class="k">Registration window</div><div>Free agents can be registered outside the window where the association allows it; otherwise January 2027</div>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Financial conditions</h3>
+          <div class="kv">
+            <div class="k">Fee</div><div>No transfer fee</div>
+            <div class="k">Training compensation</div><div>Payable to his training clubs on first professional registration; estimated in section 13</div>
+            <div class="k">Solidarity mechanism</div><div>Not triggered (no transfer fee)</div>
+            <div class="k">Salary expectation</div><div>Development contract at the club's standard scale for a first professional deal <span class="chip ver">on request</span></div>
+            <div class="k">Contract length</div><div>Open to 3 + 1 with performance-based steps</div>
+            <div class="k">Sell-on</div><div>Standard clauses negotiable</div>
+            <div class="k">Agent</div><div>FUTBOOM Agency, FIFA-licensed; representation agreement in place</div>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Recent market activity</h3>
+          <p style="font-size:13.5px"><b>Internacional de Bogotá (Colombia), 2026.</b> After the World Squad, the club's sporting department, led by sporting director Fabian Träger, evaluated Juan David in several positions and recommended investing in him as a first-team prospect. The move fell through because of an existing dispute between the club and the player's academy about the training compensation of a different player. The sporting director has agreed to act as a direct reference.</p>
+          <p style="font-size:13.5px"><b>Priority now:</b> the right project outside Colombia, where the club can develop the player and create long-term value.</p>
+          <div class="kv" style="margin-top:8px">
+            <div class="k">Work permit</div><div>Non-EU. Feasibility is country-specific (e.g. no restriction in most Bundesliga/2. Bundesliga foreigner rules; GBE points apply in England).</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 13 -->
+    <section class="sec" id="s13">
+      <div class="sec-head"><span class="n">13</span><h2>Training compensation</h2><p class="lede">Estimate under FIFA Regulations on the Status and Transfer of Players, Annexe 4. Compensation is due only when he signs his first professional contract, to the clubs that trained him from the season of his 12th birthday. Edit the table to match the player passport your association obtains from the FCF.</p></div>
+      <div class="calc">
+        <div class="tscroll"><table id="tcTable">
+          <thead><tr><th>Season (Colombia: calendar year)</th><th class="num">Age in season</th><th>Training club</th><th>Counts</th><th class="num">Rate basis</th></tr></thead>
+          <tbody>
+            <tr data-age="12"><td class="mono">2020</td><td class="num">12</td><td><input type="text" id="tc2020" value="Unknown, to verify"></td><td><input type="checkbox" id="tcc2020" aria-label="Count 2020"></td><td class="num">Category IV</td></tr>
+            <tr data-age="13"><td class="mono">2021</td><td class="num">13</td><td><input type="text" id="tc2021" value="Unknown, to verify"></td><td><input type="checkbox" id="tcc2021" aria-label="Count 2021"></td><td class="num">Category IV</td></tr>
+            <tr data-age="14"><td class="mono">2022</td><td class="num">14</td><td><input type="text" id="tc2022" value="Unknown, to verify"></td><td><input type="checkbox" id="tcc2022" aria-label="Count 2022"></td><td class="num">Category IV</td></tr>
+            <tr data-age="15"><td class="mono">2023</td><td class="num">15</td><td><input type="text" id="tc2023" value="CD Estudiantil (roster verified)"></td><td><input type="checkbox" id="tcc2023" checked aria-label="Count 2023"></td><td class="num">Category IV</td></tr>
+            <tr data-age="16"><td class="mono">2024</td><td class="num">16</td><td><input type="text" id="tc2024" value="CD Estudiantil (FCF list, club record)"></td><td><input type="checkbox" id="tcc2024" checked aria-label="Count 2024"></td><td class="num">New club's category</td></tr>
+            <tr data-age="17"><td class="mono">2025</td><td class="num">17</td><td><input type="text" id="tc2025" value="CD Estudiantil (to verify months)"></td><td><input type="checkbox" id="tcc2025" checked aria-label="Count 2025"></td><td class="num">New club's category</td></tr>
+            <tr data-age="18"><td class="mono">2026</td><td class="num">18</td><td><input type="text" id="tc2026" value="No club (free agent)"></td><td><input type="checkbox" id="tcc2026" aria-label="Count 2026"></td><td class="num">New club's category</td></tr>
+          </tbody>
+        </table></div>
+        <div class="out">
+          <div class="o"><div class="k">New club category IV</div><div class="v" id="tcIV">€30,000</div></div>
+          <div class="o"><div class="k">Category III</div><div class="v" id="tcIII">€70,000</div></div>
+          <div class="o"><div class="k">Category II</div><div class="v" id="tcII">€130,000</div></div>
+          <div class="o hot"><div class="k">Category I</div><div class="v" id="tcI">€190,000</div></div>
+        </div>
+        <p class="note">Indicative training costs per season for UEFA member associations: Category I €90,000 · II €60,000 · III €30,000 · IV €10,000. Seasons of the 12th to 15th birthday are always charged at the Category IV rate. Partial seasons are pro-rated by the association. This is a calculation based on the applicable regulations and the information currently supplied; the FCF player passport is the authority on the training period, and the new club's association fixes the category. It is not a fee quoted by any club.</p>
+      </div>
+    </section>
+
+    <!-- 14 -->
+    <section class="sec" id="s14">
+      <div class="sec-head"><span class="n">14</span><h2>Medical &amp; availability</h2><p class="lede">Summary of the interdisciplinary report by X-Move Human Performance (Medellín). The full report is available in the document center; detailed clinical records are shared with a club's medical department on request.</p></div>
+      <div class="cards c3">
+        <div class="card">
+          <h3>Current status</h3>
+          <div class="kv">
+            <div class="k">Availability</div><div><span class="chip good">fully available</span></div>
+            <div class="k">Last assessment</div><div>Ongoing, three sessions per week at X-Move (Sep 2026)</div>
+            <div class="k">Last matches</div><div>85 + 51 minutes, 5 and 8 July 2026, no complaint</div>
+            <div class="k">Pre-signing medical</div><div>Recommended, with imaging of the right fifth metatarsal</div>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Injury history</h3>
+          <div class="kv">
+            <div class="k">Injury</div><div>Fracture, fifth metatarsal, right foot</div>
+            <div class="k">Episodes</div><div>One earlier episode treated conservatively; second episode treated surgically</div>
+            <div class="k">Surgery</div><div>28 March 2026</div>
+            <div class="k">Clearance</div><div>Sports medicine 8 April 2026: asymptomatic, full ankle strength and mobility, cleared for physiotherapy</div>
+            <div class="k">Other</div><div>No other injuries reported</div>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Return-to-play process</h3>
+          <div class="path" style="grid-template-columns:1fr;gap:6px">
+            <div class="kv"><div class="k">1 · Orthopaedics</div><div>Surgical fixation, protected weight-bearing</div>
+            <div class="k">2 · Sports medicine</div><div>Assessment 8 April; 10 physiotherapy sessions prescribed; no impact until 8–12 weeks post-op and radiological consolidation</div>
+            <div class="k">3 · Physiotherapy</div><div>Mobility, gait, strength, neuromuscular control; progression by functional criteria, not by calendar</div>
+            <div class="k">4 · Reconditioning</div><div>Force production, accelerations, decelerations, football-specific actions, completed before travelling to Germany in early June</div>
+            <div class="k">5 · Performance</div><div>Post-return individual programme: strength, neuromuscular capacity, load tolerance</div></div>
+          </div>
+          <p class="note">Signed by Juan Camilo Uribe Maya, physiotherapist and CEO, X-Move Human Performance.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 15 -->
+    <section class="sec" id="s15">
+      <div class="sec-head"><span class="n">15</span><h2>Sporting references</h2><p class="lede">Real people who have worked with the player and have agreed to speak to interested clubs. Contact details are released by FUTBOOM to a club's sporting department on request.</p></div>
+      <div class="cards c2">
+        <div class="card ref">
+          <div class="av">FT</div>
+          <div>
+            <b>Fabian Träger</b><div class="status">Sporting Director · Internacional de Bogotá (Colombia)</div>
+            <q>Evaluated Juan David during the club's 2026 pre-signing period, used him in several positions and recommended investing in him as a player with first-team potential.</q>
+            <div class="kv"><div class="k">Relationship</div><div>Sporting director during trial and evaluation, 2026</div><div class="k">Contact</div><div>Direct contact released on request · <a href="#s17">request</a></div></div>
+          </div>
+        </div>
+        <div class="card ref">
+          <div class="av">JU</div>
+          <div>
+            <b>Juan Camilo Uribe Maya</b><div class="status">Physiotherapist, CEO · X-Move Human Performance (Medellín)</div>
+            <q>Led the interdisciplinary rehabilitation, reconditioning and performance programme; reports high adherence and a favourable, progressive response to load.</q>
+            <div class="kv"><div class="k">Relationship</div><div>Medical and performance lead, April 2026 to date</div><div class="k">Contact</div><div>Released on request for club medical staff</div></div>
+          </div>
+        </div>
+        <div class="card ref">
+          <div class="av">RM</div>
+          <div>
+            <b>FC Bayern World Squad coaching staff</b><div class="status">Roy Makaay (head coach), Diego Contento (assistant)</div>
+            <q>Selected him from the 2026 applicant pool and started him at right-back in the two final matches of the programme against Hertha BSC U19 and FC Bayern U19.</q>
+            <div class="kv"><div class="k">Relationship</div><div>Coaches, June–July 2026</div><div class="k">Contact</div><div>Via FC Bayern; FUTBOOM can facilitate an introduction</div></div>
+          </div>
+        </div>
+        <div class="card ref">
+          <div class="av">CE</div>
+          <div>
+            <b>CD Estudiantil (Medellín)</b><div class="status">Coaching staff, 2023–2025</div>
+            <q>Two full Sub-17 Interclubes seasons as captain; Sub-15 national title in 2023.</q>
+            <div class="kv"><div class="k">Relationship</div><div>Training club</div><div class="k">Contact</div><div>Available on request <span class="chip ver">name to add</span></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 16 -->
+    <section class="sec" id="s16">
+      <div class="sec-head"><span class="n">16</span><h2>Document center</h2><p class="lede">Everything a club would otherwise ask for in five separate e-mails.</p></div>
+      <div class="docs">
+        <a class="doc" href="docs/openfield-hertha-2026-07-05.pdf" target="_blank" rel="noopener"><span class="ic pdf">PDF</span><span><b>Openfield athlete report · Hertha BSC U19</b><span>FC Bayern World Squad GPS, 05.07.2026, 3 pages</span></span></a>
+        <a class="doc" href="docs/openfield-bayern-u19-2026-07-08.pdf" target="_blank" rel="noopener"><span class="ic pdf">PDF</span><span><b>Openfield athlete report · FC Bayern U19</b><span>FC Bayern World Squad GPS, 08.07.2026, 3 pages</span></span></a>
+        <a class="doc" href="docs/xmove-rehab-report.pdf" target="_blank" rel="noopener"><span class="ic pdf">PDF</span><span><b>Interdisciplinary rehabilitation and performance report</b><span>X-Move Human Performance, 2026 · medical, restricted use</span></span></a>
+        <a class="doc" href="https://fcbayern.com/en/teams/world-squad/players/juan-david-posada" target="_blank" rel="noopener"><span class="ic web">WEB</span><span><b>FC Bayern World Squad player profile</b><span>fcbayern.com · official measurements and bio</span></span></a>
+        <a class="doc" href="https://fcf.com.co/2024/06/10/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-preparacion-junio-2024/" target="_blank" rel="noopener"><span class="ic web">WEB</span><span><b>Colombia U17 call-up list, June 2024</b><span>Federación Colombiana de Fútbol</span></span></a>
+        <a class="doc" href="https://difutbol.org/wp-content/uploads/2023/06/sub152023.pdf" target="_blank" rel="noopener"><span class="ic web">WEB</span><span><b>Difutbol Sub-15 2023 registration list</b><span>C.D. Estudiantil roster, official PDF</span></span></a>
+        <a class="doc" href="https://www.herthabsc.com/de/nachrichten/2026/07/u19-spielbericht-bscfcb-2627" target="_blank" rel="noopener"><span class="ic web">WEB</span><span><b>Hertha BSC U19 match report</b><span>herthabsc.com, 05.07.2026</span></span></a>
+        <a class="doc" href="https://fcbayern.com/de/news/spielberichte/2026/07/spielbericht-fc-bayern-u19---fc-bayern-world-squad" target="_blank" rel="noopener"><span class="ic web">WEB</span><span><b>FC Bayern U19 match report</b><span>fcbayern.com, 08.07.2026</span></span></a>
+        <a class="doc" href="https://www.infobae.com/colombia/deportes/2026/07/20/luis-diaz-tendra-un-companero-colombiano-en-el-bayern-munich-comentan-que-es-mas-lindo-que-maluma/" target="_blank" rel="noopener"><span class="ic web">WEB</span><span><b>Press · Infobae, 20 July 2026</b><span>Interview quotes and background</span></span></a>
+        <a class="doc" href="https://www.youtube.com/playlist?list=PL0EWD0WqYDFuWumwfdVaJucAeguMfzyi9" target="_blank" rel="noopener"><span class="ic web">WEB</span><span><b>FC Bayern World Squad 2026 documentary series</b><span>YouTube playlist, behind the scenes</span></span></a>
+      </div>
+      <p class="note">Passport copy, player CV and any contractual documentation are shared through a secure channel once a club confirms interest.</p>
+    </section>
+
+    <!-- 17 -->
+    <section class="sec" id="s17">
+      <div class="sec-head"><span class="n">17</span><h2>Club workspace</h2><p class="lede">Turn the dossier into your own scouting file. Private notes stay in your browser only; comments go to FUTBOOM; requests open a message to the agency.</p></div>
+      <div class="grid2 ws">
+        <div class="card">
+          <h3>Internal assessment <span class="status">private, this device only</span></h3>
+          <label for="noteText" class="k">Your notes</label>
+          <textarea id="noteText" placeholder="e.g. Fits our RB profile; check left-foot crossing at trial; ask for FCF passport before offer."></textarea>
+          <div class="btnrow">
+            <button class="btn primary" id="saveNote" type="button">Save note</button>
+            <button class="btn" id="clearNote" type="button">Clear</button>
+            <span class="status" id="noteStatus"></span>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Contact FUTBOOM</h3>
+          <p style="font-size:13.5px">Julieth González · FIFA-licensed football agent · FUTBOOM Agency, Germany.</p>
+          <div class="btnrow">
+            <a class="btn primary" href="https://www.instagram.com/futboom.de/" target="_blank" rel="noopener">Instagram @futboom.de</a>
+            <a class="btn" href="https://www.youtube.com/@futboommanagement" target="_blank" rel="noopener">YouTube channel</a>
+            <button class="btn" id="commentBtn" type="button" hidden>Leave a comment on this dossier</button>
+          </div>
+          <div class="kv" style="margin-top:14px">
+            <div class="k">Request</div><div>Full-match footage of the Korea matches · direct reference call with Fabian Träger · trial dates · FCF player passport</div>
+            <div class="k">Response time</div><div>Within 24 hours on working days</div>
+            <div class="k">Language</div><div>English · Deutsch · Español</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</div>
+
+<footer>
+  <div class="in">
+    <div><b>FUTBOOM Agency · Scouting Intelligence.</b> Management with a mission. Empowering players, transforming the game.<br>© 2026 FUTBOOM Agency. All rights reserved. This dossier is confidential and prepared for the sporting departments of interested clubs. It may not be reproduced or forwarded without FUTBOOM's written consent.</div>
+    <div class="right">Confidential · FUTBOOM · Updated 28 September 2026 · v1.0</div>
+  </div>
+</footer>
+<div class="tip" id="tip"></div>
+
+<script>
+(function(){
+  /* nav highlight */
+  var links=[].slice.call(document.querySelectorAll('aside.nav a[href^="#s"], .mobilenav a'));
+  var secs=[].slice.call(document.querySelectorAll('section.sec'));
+  function setOn(id){links.forEach(function(a){a.classList.toggle('on',a.getAttribute('href')==='#'+id)});}
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting)setOn(e.target.id)})},{rootMargin:'-30% 0px -60% 0px'});
+    secs.forEach(function(s){io.observe(s)});
+  }
+
+  /* tooltip */
+  var tip=document.getElementById('tip');
+  function showTip(html,x,y){tip.innerHTML=html;tip.style.left=x+'px';tip.style.top=(y-8)+'px';tip.classList.add('on');}
+  function hideTip(){tip.classList.remove('on');}
+  function attach(el,html){
+    el.addEventListener('mousemove',function(e){showTip(html,e.clientX,e.clientY)});
+    el.addEventListener('mouseleave',hideTip);
+    el.addEventListener('focus',function(){var r=el.getBoundingClientRect();showTip(html,r.left+r.width/2,r.top)});
+    el.addEventListener('blur',hideTip);
+  }
+  var NS='http://www.w3.org/2000/svg';
+  function el(n,a){var e=document.createElementNS(NS,n);for(var k in a)e.setAttribute(k,a[k]);return e;}
+
+  /* chart 1: PlayerLoad ranking */
+  var pl=[["Juan Posada",1021,"85:20",true],["Youssef Mokhtari",975,"94:45"],["Byeong Chan Park",906,"82:06"],["Estevis López",899,"71:39"],["Ryuto Ono",859,"94:45"],["Seung-Min Han",781,"71:33"],["Tamás Kovács",624,"48:16"],["Rici Villalba",560,"48:16"],["Philip Biskupski",510,"48:16"],["Aryan Bose",509,"46:29"],["Herman Newton",456,"46:29"],["Bonseo Gu",448,"46:29"],["Harim Oda",384,"46:29"],["Issouf Dabo",338,"48:16"],["João Paiva",246,"22:27"],["Heitor Almeida",233,"21:24"],["Fehrney Olvera",143,"12:00"],["Germano Poniewas",138,"14:31"]];
+  (function(){
+    var W=520,rowH=19,padL=138,padR=60,top=8,H=top+pl.length*rowH+24,max=1100;
+    var svg=el('svg',{viewBox:'0 0 '+W+' '+H,role:'img','aria-label':'PlayerLoad ranking, Hertha match, Posada first with 1021'});
+    var g=el('g',{'class':'grid'});
+    [0,250,500,750,1000].forEach(function(v){var x=padL+(W-padL-padR)*v/max;g.appendChild(el('line',{x1:x,y1:top,x2:x,y2:top+pl.length*rowH}));var t=el('text',{x:x,y:H-6,'text-anchor':'middle'});t.textContent=v;svg.appendChild(t);});
+    svg.appendChild(g);
+    var avgX=padL+(W-padL-padR)*557/max;svg.appendChild(el('line',{'class':'base',x1:avgX,y1:top-2,x2:avgX,y2:top+pl.length*rowH}));
+    var at=el('text',{x:avgX+4,y:top+8,'class':'v'});at.textContent='avg 557';svg.appendChild(at);
+    pl.forEach(function(d,i){
+      var y=top+i*rowH,w=(W-padL-padR)*d[1]/max,me=!!d[3];
+      var lab=el('text',{x:padL-8,y:y+13,'text-anchor':'end'});lab.textContent=d[0];if(me){lab.setAttribute('font-weight','600');lab.style.fill='var(--ink)';}svg.appendChild(lab);
+      var r=el('rect',{x:padL,y:y+3,width:Math.max(w,2),height:rowH-6,rx:3,fill:me?'var(--chart-accent)':'var(--axis)',tabindex:0});
+      var vt=el('text',{x:padL+w+5,y:y+13,'class':'v'});vt.textContent=d[1]+(me?' ('+d[2]+')':'');if(!me)vt.style.fill='var(--muted)';
+      attach(r,'<b>'+d[0]+'</b> · PlayerLoad <b>'+d[1]+'</b> · '+d[2]+' min');
+      svg.appendChild(r);svg.appendChild(vt);
+    });
+    document.getElementById('chartPL').appendChild(svg);
+  })();
+
+  /* chart 2: indexed vs squad avg */
+  var idx=[["Distance",154,97],["PlayerLoad",183,101],["PL / min",120,101],["Explosive efforts",165,76],["Max speed",104,97],["m / min",95,97]];
+  (function(){
+    var W=520,H=250,padL=44,padB=44,padT=14,padR=10,max=200;
+    var svg=el('svg',{viewBox:'0 0 '+W+' '+H,role:'img','aria-label':'Posada indexed to squad average; PlayerLoad 183 vs Hertha'});
+    var plotH=H-padB-padT,plotW=W-padL-padR;
+    function y(v){return padT+plotH-plotH*v/max;}
+    var g=el('g',{'class':'grid'});
+    [0,50,100,150,200].forEach(function(v){g.appendChild(el('line',{x1:padL,y1:y(v),x2:W-padR,y2:y(v)}));var t=el('text',{x:padL-6,y:y(v)+4,'text-anchor':'end','class':'v'});t.textContent=v;svg.appendChild(t);});
+    svg.appendChild(g);
+    svg.appendChild(el('line',{'class':'axis',x1:padL,y1:y(0),x2:W-padR,y2:y(0)}));
+    var gw=plotW/idx.length,bw=Math.min(28,gw*0.32);
+    idx.forEach(function(d,i){
+      var cx=padL+gw*i+gw/2;
+      [[d[1],'var(--chart-accent)','vs Hertha U19'],[d[2],'var(--chart-2)','vs FC Bayern U19 (1H)']].forEach(function(s,j){
+        var x=cx-bw-1+j*(bw+2),h=plotH*s[0]/max;
+        var r=el('rect',{x:x,y:y(s[0]),width:bw,height:h,rx:3,fill:s[1],tabindex:0});
+        attach(r,'<b>'+d[0]+'</b> · '+s[2]+' · <b>'+s[0]+'</b> (avg = 100)');svg.appendChild(r);
+        if(j===0){var vt=el('text',{x:x+bw/2,y:y(s[0])-4,'text-anchor':'middle','class':'v'});vt.textContent=s[0];svg.appendChild(vt);}
+      });
+      var lab=el('text',{x:cx,y:H-padB+16,'text-anchor':'middle'});lab.textContent=d[0];svg.appendChild(lab);
+    });
+    svg.appendChild(el('line',{'class':'base',x1:padL,y1:y(100),x2:W-padR,y2:y(100)}));
+    document.getElementById('chartIdx').appendChild(svg);
+  })();
+
+  /* training compensation estimator */
+  var rates={I:90000,II:60000,III:30000,IV:10000};
+  function fmt(n){return '€'+n.toLocaleString('en-GB');}
+  function calc(){
+    var rows=[].slice.call(document.querySelectorAll('#tcTable tbody tr')),out={I:0,II:0,III:0,IV:0};
+    rows.forEach(function(r){var age=+r.getAttribute('data-age'),on=r.querySelector('input[type=checkbox]').checked;if(!on)return;
+      ['I','II','III','IV'].forEach(function(c){out[c]+= age<=15?rates.IV:rates[c];});});
+    document.getElementById('tcI').textContent=fmt(out.I);document.getElementById('tcII').textContent=fmt(out.II);
+    document.getElementById('tcIII').textContent=fmt(out.III);document.getElementById('tcIV').textContent=fmt(out.IV);
+  }
+  [].slice.call(document.querySelectorAll('#tcTable input[type=checkbox]')).forEach(function(c){c.addEventListener('change',calc)});
+  calc();
+
+  /* private notes */
+  var KEY='futboom-jdp-notes',ta=document.getElementById('noteText'),st=document.getElementById('noteStatus');
+  try{var saved=localStorage.getItem(KEY);if(saved){ta.value=saved;st.textContent='Restored from this browser.';}}catch(e){}
+  document.getElementById('saveNote').addEventListener('click',function(){try{localStorage.setItem(KEY,ta.value);st.textContent='Saved on this device at '+new Date().toLocaleTimeString();}catch(e){st.textContent='Could not save in this browser (private mode?).';}});
+  document.getElementById('clearNote').addEventListener('click',function(){ta.value='';try{localStorage.removeItem(KEY);}catch(e){}st.textContent='Cleared.';});
+
+  /* comments composer (composer-only capability) */
+  var cbtn=document.getElementById('commentBtn');
+  if(window.claude&&typeof window.claude.use==='function'){
+    window.claude.use('comments').then(function(c){
+      if(!c||typeof c.openComposer!=='function')return;
+      cbtn.hidden=false;
+      cbtn.addEventListener('click',function(){
+        c.openComposer({element:document.getElementById('s17')}).then(function(r){st.textContent=r&&r.opened?'':st.textContent;}).catch(function(err){if(err&&err.code==='unavailable'){cbtn.hidden=true;}});
+      });
+    }).catch(function(){});
+  }
+})();
+</script>
+
+</body></html>
